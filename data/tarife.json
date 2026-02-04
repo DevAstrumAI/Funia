@@ -1,0 +1,120 @@
+{
+  "source": "https://www.functiomed.ch/tarife",
+  "title": "Tarife | Functiomed",
+  "sections": [
+    {
+      "id": "komplementarmedizin",
+      "title": "Komplementärmedizin",
+      "fullText": "Komplementärmedizinische Leistungen, wie z.B. Homoöpathie, Akupunktur/Tuina, Colon-Hydro Therapie, Med. Massage, usw. werden von den meisten Zusatzversicherungen für Komplementär-Medizin zu einem Teil übernommen. Der Patient/die Patientin ist verpflichtet die Kostenübernahme **vor** dem Termin mit der Zusatz- oder Unfallversicherung abzuklären. Bei Irrtümern oder falscher Einschätzung des Versicherungsschutzes lehnt die functiomed AG jegliche Haftung ab. Verrechnet wird der geleistete Zeitaufwand pro 5 Minuten nach dem Branchentarif (Tarif 590). Bitte beachten Sie, dass auch Dossierführung, Aktenstudium, sowie die Vor- und Nachbereitung des Zimmers der Konsultationszeit sind. Die direkte Leistungsabrechnung mit den Versicherungen ist in der Komplementärmedizin nicht erlaubt. Die Behandlung wird vor Ort in Rechnung gestellt und kann mit TWINT, EC/Maestro-Karton (kein American Express oder in Bar bezahlt werden. Sie erhalten einen Rückforderungsbeleg für Ihre Zusatzversicherung in Papierform oder verschlüsselt per Mail.",
+      "summary": "Leistungen (Homöopathie, Akupunktur/Tuina, Colon-Hydro Therapie, Med. Massage, etc.) werden von den meisten Zusatzversicherungen für Komplementärmedizin teilweise übernommen.",
+      "details": [
+        "Kostenübernahme VOR dem Termin mit Zusatz- oder Unfallversicherung abklären. Bei Irrtum lehnt functiomed AG jegliche Haftung ab.",
+        "Verrechnung: geleisteter Zeitaufwand pro 5 Minuten nach Branchentarif (Tarif 590).",
+        "Dossierführung, Aktenstudium, Vor- und Nachbereitung des Zimmers zählen zur Konsultationszeit.",
+        "Direkte Leistungsabrechnung mit Versicherungen ist in der Komplementärmedizin nicht erlaubt.",
+        "Bezahlung vor Ort: TWINT, EC/Maestro-Karte (kein American Express) oder Bar.",
+        "Rückforderungsbeleg für Zusatzversicherung in Papierform oder verschlüsselt per Mail."
+      ]
+    },
+    {
+      "id": "osteopathie",
+      "title": "Osteopathie",
+      "fullText": "Die Osteopathie wird in der Regel über die Zusatzversicherung abgerechnet. Bitte kläre die Kostenübernahme im Voraus direkt mit deiner Versicherung. Ab 2026 gilt für Osteopath*innen mit über zehn Jahren Berufserfahrung ein um CHF 2.– pro 5 Minuten erhöhter Tarif. Abgerechnet wird nach Tarif 590, transparent nach effektiv erbrachter Behandlungszeit. Bitte prüfe vorab, ob deine Therapeutin oder dein Therapeut bei deiner Versicherung anerkannt ist. Helsana und Visana verlangen spezifische Anerkennungen, weshalb nicht alle Therapeut*innen übernommen werden. functiomed übernimmt keine Verantwortung für eine Nichtübernahme der Kosten. Hinweis CSS & Groupe Mutuel: Diese Versicherer vergüten in der Komplementärmedizin – auch in der Osteopathie – nur einen begrenzten Höchstbetrag pro 5 Minuten. Differenzen gehen zulasten der Patient*innen. Bitte kläre die genauen Bedingungen direkt mit deiner Versicherung.",
+      "summary": "Wird in der Regel über die Zusatzversicherung abgerechnet.",
+      "details": [
+        "Kostenübernahme im Voraus direkt mit der Versicherung klären.",
+        "Ab 2026: Osteopath*innen mit über zehn Jahren Berufserfahrung – um CHF 2.– pro 5 Minuten erhöhter Tarif.",
+        "Abgerechnet wird nach Tarif 590, transparent nach effektiv erbrachter Behandlungszeit.",
+        "Vorab prüfen, ob Therapeutin/Therapeut bei der Versicherung anerkannt ist. Helsana und Visana verlangen spezifische Anerkennungen; nicht alle Therapeut*innen werden übernommen. functiomed übernimmt keine Verantwortung für Nichtübernahme.",
+        "CSS & Groupe Mutuel: vergüten in der Komplementärmedizin/Osteopathie nur einen begrenzten Höchstbetrag pro 5 Minuten. Differenzen zulasten der Patient*innen. Bedingungen direkt mit der Versicherung klären."
+      ]
+    },
+    {
+      "id": "selbstzahler",
+      "title": "Selbstzahlerleistungen",
+      "fullText": "Bitte beachten Sie, dass unsere Selbstzahlerleistungen nicht von den Krankenkassen übernommen werden und direkt vor Ort bezahlt werden müssen. Bei Rechnungsversand per Post wird ein Zuschlag von CHF 3.50 erhoben. Die Tarife für unsere Behandlungen können jederzeit bei uns angefragt werden. Eine Auswahl finden Sie auch auf unserer Homepage – jedoch ohne Gewähr auf Vollständigkeit und Aktualität.",
+      "summary": "Werden nicht von den Krankenkassen übernommen und müssen direkt vor Ort bezahlt werden.",
+      "details": [
+        "Bei Rechnungsversand per Post: Zuschlag CHF 3.50.",
+        "Tarife für Behandlungen können jederzeit bei functiomed angefragt werden.",
+        "Auswahl auch auf der Homepage – ohne Gewähr auf Vollständigkeit und Aktualität."
+      ]
+    },
+    {
+      "id": "orthopaedie",
+      "title": "Orthopädie & Traumatologie │ Sportmedizin",
+      "fullText": "Die Orthopädie & Traumatologie, sowie die Sportmedizin gehören zu den Leistungen der Grundversicherung. Wir bitten Sie, Ihre Unterlagen (MRI-, Röntgen-, Arztberichte, etc.), welche im Zusammenhang mit den Beschwerden stehen, zum Termin mitzubringen. Die Leistungsabrechnungen werden nach Möglichkeit direkt mit den Versicherungen abgerechnet.",
+      "summary": "Gehören zu den Leistungen der Grundversicherung.",
+      "details": [
+        "Unterlagen (MRI-, Röntgen-, Arztberichte etc.) im Zusammenhang mit den Beschwerden zum Termin mitbringen.",
+        "Leistungsabrechnungen werden nach Möglichkeit direkt mit den Versicherungen abgerechnet."
+      ]
+    },
+    {
+      "id": "physiotherapie",
+      "title": "Physiotherapie",
+      "fullText": "Die Physiotherapie gehört zu den Leistungen der Grundversicherung. Die Kosten werden von den Krankenkassen übernommen. Zur Überweisung stellt der Arzt eine Physiotherapie-Verordnung aus. Die Leistungsabrechnungen werden nach Möglichkeit direkt mit den Versicherungen abgerechnet.",
+      "summary": "Gehört zu den Leistungen der Grundversicherung; Kosten werden von den Krankenkassen übernommen.",
+      "details": [
+        "Arzt stellt Physiotherapie-Verordnung aus.",
+        "Leistungsabrechnungen werden nach Möglichkeit direkt mit den Versicherungen abgerechnet."
+      ]
+    },
+    {
+      "id": "ernaehrung",
+      "title": "Ernährungsberatung und Diagnostik",
+      "fullText": "Die Leistungen rund um das Thema Ernährungsberatung und Diagnostik finden Sie auf den entsprechenden Seiten: erpse Institut - Leistungen, fitamara GmbH - Leistungen.",
+      "summary": "Leistungen auf den entsprechenden Seiten.",
+      "links": [
+        "erpse Institut – Leistungen",
+        "fitamara GmbH – Leistungen"
+      ]
+    },
+    {
+      "id": "mental-coaching",
+      "title": "Mental Coaching",
+      "fullText": "Die Kosten, Anzahl und Dauer der Behandlungen richten sich nach Art der Beschwerden und dem Heilungsverlauf. Wir empfehlen allen Patienten die Kostenübernahme direkt mit der Versicherung zu klären. Sportmental Akademie - Leistungen.",
+      "summary": "Kosten, Anzahl und Dauer der Behandlungen richten sich nach Art der Beschwerden und dem Heilungsverlauf.",
+      "details": [
+        "Kostenübernahme direkt mit der Versicherung klären.",
+        "Sportmental Akademie – Leistungen."
+      ]
+    },
+    {
+      "id": "mtt",
+      "title": "Med. Trainingstherapie",
+      "fullText": "Die Med. Trainingstherapie MTT (gültig für 3 Monate) gehört zu den Leistungen der Grundversicherung und muss von einem Arzt schriftlich verordnet werden. Die verordnete MTT beinhaltet das gleiche Angebot wie das functiotraining. Die Leistungsabrechnungen werden nach Möglichkeit direkt mit den Versicherungen abgerechnet.",
+      "summary": "MTT gültig für 3 Monate; gehört zu den Leistungen der Grundversicherung und muss von einem Arzt schriftlich verordnet werden.",
+      "details": [
+        "Die verordnete MTT beinhaltet das gleiche Angebot wie das functiotraining.",
+        "Leistungsabrechnungen werden nach Möglichkeit direkt mit den Versicherungen abgerechnet."
+      ]
+    },
+    {
+      "id": "functiotraining",
+      "title": "functioTraining",
+      "fullText": "Unser functiotraining ist Qualitop anerkannt. Erkundigen Sie sich bei Ihrer Krankenkasse für einen Präventionsbeitrag an Ihr Abo.",
+      "summary": "Qualitop anerkannt.",
+      "details": [
+        "Bei der Krankenkasse für einen Präventionsbeitrag an das Abo erkundigen."
+      ]
+    },
+    {
+      "id": "functiokurse",
+      "title": "functioKurse",
+      "fullText": "Erkundigen Sie sich bei Ihrer Krankenkasse für einen Präventionsbeitrag an Ihr Kursabo.",
+      "summary": "Bei der Krankenkasse für einen Präventionsbeitrag an das Kursabo erkundigen."
+    },
+    {
+      "id": "numo",
+      "title": "Orthopädie-Technik by NUMO",
+      "fullText": "Die Kosten für orthopädische Schuheinlagen werden grundsätzlich von Ihrer ambulanten Zusatzversicherung (Kategorie: Hilfsmittel) übernommen - je nach Versicherungsstufe teilweise bis komplett. Für die Kostenübernahme durch die Zusatzversicherung benötigen Sie grundsätzlich eine ärztliche Verordnung, die Sie vor Ihrer Visite bei uns erhalten haben. Weitere Leistungen wie Lauf- und Ganganalysen werden nur in seltenen Fällen übernommen. Klären Sie weitere Fragen diesbezüglich mit Ihrer Zusatzversicherung, bevor Sie NUMO besuchen. Bei Fragen besuchen Sie unsere Homepage oder kontaktieren Sie uns gerne telefonisch.",
+      "summary": "Orthopädische Schuheinlagen werden grundsätzlich von der ambulanten Zusatzversicherung (Kategorie Hilfsmittel) übernommen – je nach Versicherungsstufe teilweise bis komplett.",
+      "details": [
+        "Für Kostenübernahme durch Zusatzversicherung: grundsätzlich ärztliche Verordnung erforderlich, vor der Visite erhalten.",
+        "Lauf- und Ganganalysen: nur in seltenen Fällen übernommen. Mit Zusatzversicherung klären.",
+        "Bei Fragen: Homepage oder telefonisch kontaktieren."
+      ]
+    }
+  ]
+}

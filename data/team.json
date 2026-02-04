@@ -1,0 +1,424 @@
+{
+  "departments": [
+    "Empfang │ Administration │ Backoffice",
+    "Ergotherapie",
+    "Geschäftsleitung",
+    "Infusionen │ Colon Hydro",
+    "Integrative Medizin",
+    "Med. Massage",
+    "Med. Praxisassistentinnen",
+    "Mental Coaching",
+    "Orthopädie & Traumatologie │ Sportmedizin",
+    "Osteopathie │ Etiopathie",
+    "Physiotherapie",
+    "Rheumatologie │ Innere Medizin",
+    "Training │ Kurse"
+  ],
+  "team": [
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Jelena Jauch",
+      "title": "Assistentin der Geschäftsleitung",
+      "role": "Empfang",
+      "languages": ["Deutsch", "Englisch", "Serbisch", "Französisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Beatrice Liera",
+      "title": "Empfang / Administration",
+      "role": "Künstler-Galerie-Verantwortliche",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Andrea Binder",
+      "title": "Empfang / Administration",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Anina Schädler",
+      "title": "Empfang / Administration",
+      "languages": ["Deutsch", "Italienisch", "Französisch", "Englisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Doris Aeppli",
+      "title": "Empfang / Administration",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Sandra Biondo",
+      "title": "Empfang / Administration",
+      "languages": ["Deutsch", "Italienisch", "Französisch", "Englisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Carole Ruppli",
+      "title": "Empfang / Administration",
+      "languages": ["Deutsch", "Englisch", "Spanisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Chiara Di Cugno",
+      "title": "Empfang / Administration",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Selia Lakatos",
+      "title": "Empfang / Administration",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Empfang │ Administration │ Backoffice",
+      "name": "Julia Gaiser",
+      "title": "Backoffice",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Ergotherapie",
+      "name": "Adriana Colaianni",
+      "title": "Dipl. Ergotherapeutin",
+      "note": "ab November im Team",
+      "languages": ["Deutsch", "Englisch", "Italienisch"]
+    },
+    {
+      "department": "Geschäftsleitung",
+      "name": "Prof. Martin Spring",
+      "title": "CEO / Inhaber",
+      "credentials": "MSc FH in Osteopathie, Interkantonales Osteopathie Diplom GDK, Professor an der Fachhochschule Fribourg HEdS FR",
+      "specialties": ["Klassische Osteopathie", "Etiopathie", "Spitzen- und Leistungssportler", "Schwangere", "Ernährung", "Kinder", "Babies"],
+      "author": "Buchautor: 'Die Entstehung von Krankheiten. Ursache-Folge-Ketten' (DWV); Mitautor: 'Migräne und Kopfschmerzen' (Karger Verlag)",
+      "languages": ["Deutsch", "Englisch", "Französisch", "Japanisch"]
+    },
+    {
+      "department": "Geschäftsleitung",
+      "name": "Dr. med. Manuel Haag",
+      "title": "Ärztlicher Leiter │ Facharzt für orthopädische Chirurgie und Traumatologie des Bewegungsapparates",
+      "specialties": ["Schulter", "Knie", "Sportorthopädie", "Minimalinvasive Gelenkchirurgie"],
+      "bio": "Internationale Ausbildung an spezialisierten Kliniken für Schulter- und Kniechirurgie; Fokus seit 2003 auf Schulter und Knie.",
+      "languages": ["Deutsch", "Englisch", "Französisch", "Portugiesisch"],
+      "memberships": ["AZG", "ZGN", "FMH", "AGA", "ESSKA", "GOTS"],
+      "role_extra": "Mannschaftsarzt von FC Wettswil-Bonstetten"
+    },
+    {
+      "department": "Geschäftsleitung",
+      "name": "Ursula Baumberger",
+      "title": "COO / Mitglied der Geschäftsleitung",
+      "responsibilities": ["Stellvertretung CEO", "Praxisorganisation", "HR", "Qualitätssicherung", "IT / Marketing / Event"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Geschäftsleitung",
+      "name": "Martin Schwendenmann",
+      "title": "Leitung Physiotherapie / Mitglied der Geschäftsleitung",
+      "credentials": "Dipl. Physiotherapeut SRK, Normungskommission qualitop",
+      "offer": ["Manuelle Therapie", "Gerätetraining", "Manuelle Lymphdrainage (KPE)", "Sportphysiotherapie"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Infusionen │ Colon Hydro",
+      "name": "Melanie Mazzara",
+      "title": "Pflegefachfrau",
+      "credentials": "Dipl. Pflegefachfrau HF, Colon Hydro Therapeutin",
+      "offer": ["Infusionstherapien (ärztlich begleitet)", "Colon Hydro Therapie", "Ozon Therapie"],
+      "specialties": ["Orthomolekulare Medizin", "Darmgesundheit & Mikrobiom", "Mitochondrienmedizin", "Chronisches Fatigue-Syndrom (CFS)", "Schwermetallausleitungen", "Hormonregulation", "Parasiten, SIBO", "Antikörper- und Immundiagnostik", "Mineralstoff- & Aminosäurenprofilanalysen"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Infusionen │ Colon Hydro",
+      "name": "Angel Odelin Reve Robles",
+      "title": "Dipl. Naturheilpraktiker TEN",
+      "role": "Medizinischer Praxisassistent",
+      "offer": ["Infusionstherapien (ärztlich begleitet)", "Colon Hydro Therapie", "Ozon Therapie"],
+      "specialties": ["Orthomolekulare Medizin", "Darmgesundheit & Mikrobiom", "Mitochondrienmedizin", "CFS", "Schwermetallausleitungen", "Hormonregulation", "Parasiten, SIBO", "Antikörper- und Immundiagnostik", "Mineralstoff- & Aminosäurenprofilanalysen"],
+      "languages": ["Deutsch", "Italienisch", "Englisch"]
+    },
+    {
+      "department": "Integrative Medizin",
+      "name": "Praktische Ärztin Sophie Steger",
+      "title": "Fachärztin für Allgemeinmedizin (A) und Osteopathie │ Etiopathie",
+      "specialties": ["Etiopathie", "Faszientherapie", "Orthomolekularmedizin", "Funktionelle Myodiagnostik", "Akupunktur", "Allgemein integrative Medizin"],
+      "languages": ["Deutsch", "Englisch"],
+      "memberships": ["Vorstand SAGOM"]
+    },
+    {
+      "department": "Med. Massage",
+      "name": "Thomas Näf",
+      "title": "Medizinischer Masseur",
+      "offer": ["Klassische Massage", "Sportsmassage", "Hot-Stone Massage", "Manuelle Lymphdrainage", "Fussreflexzonenmassage"],
+      "languages": ["Deutsch", "Englisch"],
+      "memberships": ["EMR", "ASCA", "EGK"]
+    },
+    {
+      "department": "Med. Massage",
+      "name": "Olga Kosarik",
+      "title": "Dipl. Masseurin",
+      "offer": ["Klassische Massage", "Sportsmassage", "Japanische Gesichtsmassage", "Lomi Lomi", "Schwangerschaftsmassage"],
+      "languages": ["Deutsch", "Russisch", "Englisch", "Italienisch"],
+      "memberships": ["EMR", "ASCA", "EGK"]
+    },
+    {
+      "department": "Med. Praxisassistentinnen",
+      "name": "Sabteca Varathan",
+      "title": "Med. Praxisassistentin",
+      "languages": ["Deutsch", "Englisch", "Tamilisch"]
+    },
+    {
+      "department": "Med. Praxisassistentinnen",
+      "name": "Janine Sutter",
+      "title": "Med. Praxisassistentin",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Med. Praxisassistentinnen",
+      "name": "Fabienne Fischer",
+      "title": "Praxisassistentin",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Mental Coaching",
+      "name": "Evelyne Oesch",
+      "title": "Mental Coaching",
+      "credentials": "Mental Coach, Master in Psychologie, Zertifizierter Hypnosecoach VSH, CAS in Ernährungspsychologie",
+      "offer": ["Mentales Training & Ressourcenaktivierung", "Stressbewältigung & Resilienzförderung", "Achtsamkeit & gesunde Routinen"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Orthopädie & Traumatologie │ Sportmedizin",
+      "name": "Dr. med. Christoph Lienhard",
+      "title": "Facharzt für orthopädische Chirurgie und Traumatologie des Bewegungsapparates",
+      "specialty_focus": "Gelenkendoprothetik und Vorfussoperationen",
+      "offer": ["Gelenkendoprothetik (minimal invasive Hüfte, Knie)", "Vorfussoperationen", "Allgemeine orthopädische Untersuchung, Diagnostik und Behandlung", "Zweitmeinung"],
+      "bio": "Oberarzt- und Kaderarzt-Erfahrung; anterior minimal invasive Hüftprothesenimplantation.",
+      "languages": ["Deutsch", "Französisch", "Englisch", "Italienisch"],
+      "memberships": ["FMH", "AGZ", "ZGO", "Swiss Orthopaedics"]
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Gregory Mestré",
+      "title": "Osteopathie │ Etiopathie",
+      "credentials": "Diplom Osteopathie D.O. (MSc FH in Osteopathie iA), Dipl. Lic. Physiotherapeut",
+      "specialties": ["Etiopathie", "Sportler", "Kinder", "Schwangere", "Ernährung"],
+      "languages": ["Deutsch", "Englisch", "Französisch", "Niederländisch"]
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Mario Pichler",
+      "title": "Osteopathie │ Etiopathie",
+      "credentials": "Osteopathie MSc. (A), Dipl. Physiotherapeut",
+      "specialties": ["Sportler", "Etiopathie", "Babies", "Kinder", "Schwangere"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Oliver Hahn",
+      "title": "Osteopathie │ Etiopathie",
+      "credentials": "Osteopathie MSc. (A), Dipl. Physiotherapeut, Dipl. Tennis Trainer",
+      "specialties": ["Etiopathie", "Sportler", "Kinder", "Babies", "Schwangere"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Philipp Frank",
+      "title": "Osteopathie │ Etiopathie",
+      "credentials": "Diplom Osteopathie D.O. (MSc FH in Osteopathie iA), Dipl. Physiotherapeut, Dipl. med. Masseur",
+      "specialties": ["Etiopathie", "Sportler", "Kinder", "Babies", "Schwangere"],
+      "languages": ["Deutsch", "Französisch", "Englisch"]
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Tiffany Roth",
+      "title": "Osteopathie │ Etiopathie",
+      "credentials": "MSc FH in Osteopathie",
+      "specialties": ["Klassische Osteopathie", "Etiopathie", "Kinder", "Babies", "Schwangere"],
+      "languages": ["Französisch", "Englisch", "Deutsch"],
+      "insurance": "Visana anerkannt"
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Thomas Reuter",
+      "title": "Osteopathie │ Etiopathie",
+      "credentials": "Osteopath D.O., Dipl. Physiotherapeut, Sportphysiotherapeut, Kinder und Baby Osteopathie",
+      "offer": ["Manuelle Therapie", "Manuelle Lymphdrainage (KPE)", "Massagen"],
+      "languages": ["Deutsch", "Englisch"],
+      "insurance": "Helsana anerkannt"
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Yvan Zanoli",
+      "title": "Osteopathie │ Etiopathie",
+      "credentials": "M.Sc in Osteopathie D.O.",
+      "specialties": ["Etiopathie"],
+      "languages": ["Italienisch", "Deutsch", "Englisch"],
+      "insurance": "Helsana anerkannt"
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Philipp Zuber",
+      "title": "Osteopathie / Etiopathie",
+      "credentials": "MSc FH in Osteopathie",
+      "specialties": ["Etiopathie"],
+      "languages": ["Deutsch", "Französisch", "Englisch"],
+      "insurance": "Helsana und Visana anerkannt"
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Luisa Furrer",
+      "title": "Osteopathie / Etiopathie",
+      "credentials": "MSc FH in Osteopathie",
+      "specialties": ["Etiopathie"],
+      "languages": ["Französisch", "Deutsch", "Englisch"],
+      "insurance": "Helsana und Visana anerkannt"
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Fanny Guggisberg",
+      "title": "Osteopathie / Etiopathie",
+      "credentials": "MSc FH in Osteopathie",
+      "specialties": ["Etiopathie"],
+      "languages": ["Französisch", "Deutsch", "Englisch"],
+      "insurance": "Helsana und Visana anerkannt"
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Danique Ooms",
+      "title": "Osteopathie / Etiopathie",
+      "credentials": "Osteopathie MSc. (BE)",
+      "specialties": ["Etiopathie", "Kinder und Babys", "Schwangere"],
+      "languages": ["Holländisch", "Deutsch", "Englisch"]
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Mona Reuss",
+      "title": "Osteopathie / Etiopathie",
+      "credentials": "MSc FH in Osteopathie",
+      "specialties": ["Etiopathie"],
+      "languages": ["Französisch", "Deutsch", "Englisch"],
+      "insurance": "Helsana und Visana anerkannt"
+    },
+    {
+      "department": "Osteopathie │ Etiopathie",
+      "name": "Osteopathen*Innen in Ausbildung",
+      "title": "Qualität von Morgen",
+      "note": "Studenten im Bachelor oder Master of Science HES-SO in Osteopathie. Aktuell: Andrin Good und Robin Franzen.",
+      "insurance": "Helsana anerkannt"
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Alica Baranek",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeutin",
+      "offer": ["Manuelle Lymphdrainage (KPE)", "Kinesio Taping", "Dry Needling", "Schwindeltherapie"],
+      "languages": ["Deutsch", "Englisch", "Slowakisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Robi Sedlaczek",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeut SRK BSc., Manualtherapeut, Leiter Ski Alpin (J + S)",
+      "offer": ["Manuelle Therapie", "Dry Needling", "Kinesio Taping"],
+      "languages": ["Deutsch", "Englisch", "Tschechisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Laura Kaufmann",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeutin SRK, Dry Needling Therapeutin DVS",
+      "offer": ["Dry Needling"],
+      "languages": ["Deutsch", "Englisch", "Italienisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Lea Wiler",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeut",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Miriam Moch",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeut SRK",
+      "offer": ["Manuelle Therapie", "Dry Needling und Triggerpunkttherapie", "Kieferbehandlung (CMD)", "Craniosacrale Therapie", "Kinesiotaping"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Marina Schürmann",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeut SRK, MSc FH Physiotherapie Schwerpunkt Sport i.A.",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Florian Gabriel",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeut, Physiotherapeut vom Liechtensteiner Fussballnationalteam, Sportphysiotherapeut Msc. i.A, Osteopathie i.A, Athletik Fussball A-Lizenz",
+      "offer": ["Manuelle Therapie", "Dry Needling", "CMD (Kiefergelenkstherapie)", "Kinesiotaping", "Manuelle Lymphdrainage"],
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Anna Franscini",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeutin SRK",
+      "languages": ["Deutsch", "Englisch", "Italienisch", "Französisch (Basic)"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Patricia Grütter",
+      "title": "Kinderphysiotherapie",
+      "credentials": "Dipl. Physiotherapeutin BSc, Spezialisiert auf Pädiatrie, Spiraldynamik, Bobath-Konzept",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Aline von Aarburg",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeutin",
+      "note": "ab 17.11.2025 im Team",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Physiotherapie",
+      "name": "Cyrill Kernwein",
+      "title": "Physiotherapie",
+      "credentials": "Dipl. Physiotherapeut",
+      "languages": ["Deutsch", "Englisch"]
+    },
+    {
+      "department": "Rheumatologie │ Innere Medizin",
+      "name": "Dr. medic. (RO) Violeta Marinescu",
+      "title": "Fachärztin für Rheumatologie (Expertin für Kristallarthropathien), Fachärztin für Innere Medizin",
+      "offer": ["Rheumatoide Arthritis", "Spondylarthropathien", "Kollagenosen", "Vaskulitiden", "Sarkoidose", "Autoinflammatorische Syndrome", "Osteoporose", "Degenerative Veränderungen (Arthrose)", "Kristallarthropathien", "Fibromyalgiesyndrom", "Injektionen (Cortison, Hyaluronsäure, PRP)", "Radiosynoviorthese (RSO)", "EWST", "Infusionstherapien"],
+      "languages": ["Rumänisch", "Deutsch", "Französisch", "Englisch"],
+      "memberships": ["Schweizerische Gesellschaft für Rheumatologie", "GESKES", "Ärztegesellschaft Kanton Zürich"]
+    },
+    {
+      "department": "Training │ Kurse",
+      "name": "Sandra Biondo",
+      "title": "functioKurse",
+      "credentials": "Dipl. Yogalehrerin",
+      "offer": ["Yoga"],
+      "languages": ["Deutsch", "Italienisch", "Französisch", "Englisch"]
+    },
+    {
+      "department": "Training │ Kurse",
+      "name": "Meinrad \"Mäne\" Wiser",
+      "title": "Functio Training",
+      "credentials": "Wellnesstrainer, Personaltrainer, Nordic Walking Trainer",
+      "offer": ["Functiotraining"],
+      "languages": ["Deutsch", "Englisch", "Französisch"]
+    },
+    {
+      "department": "Training │ Kurse",
+      "name": "Thomas Näf",
+      "title": "Functio Training",
+      "credentials": "Fitness Betreuer, Medizinischer Masseur",
+      "languages": ["Deutsch", "Englisch"]
+    }
+  ]
+}

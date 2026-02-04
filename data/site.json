@@ -1,0 +1,56 @@
+{
+  "source": "https://www.functiomed.ch",
+  "title": "functiomed AG | Zentrum für funktionelle Medizin in Zürich",
+  "home": {
+    "headline": "FUNCTIOMED - ZENTRUM FÜR FUNKTIONELLE MEDIZIN",
+    "subheadline": "Hier sind Sie in guten Händen",
+    "welcomeTitle": "Willkommen bei Functiomed",
+    "welcomeText": "Jeder Mensch ist ein Individuum und besteht aus verschiedenen körperlichen, geistigen und seelischen Körpersystemen. Damit diese Systeme als ein Ganzes in ein erfolgreiches Behandlungskonzept integriert werden können, bedarf es verschiedener spezialisierter Mediziner und Therapeuten. Das sorgfältig ausgewählte Spezialisten Team arbeitet bei functiomed unter einem Dach. Unser Ziel ist, unseren Patientinnen und Patienten stets eine optimal wirksame und schonende Therapie mit möglichst schnellem Heilungsverlauf anzubieten. Professionalität, Persönlichkeit und täglicher Austausch sind wichtige Faktoren bei der Ausübung unserer Arbeit. Das \"interdisziplinäre functiomed Konzept\" ist unser Garant für Ihren Gesundheitserfolg!",
+    "ceo": {
+      "name": "Prof. Martin Spring",
+      "role": "CEO",
+      "greeting": "Herzlichst"
+    },
+    "booking": {
+      "label": "Termin buchen",
+      "url": "https://www.functiomed.ch/termin-buchen"
+    }
+  },
+  "notfall": {
+    "title": "Notfall System",
+    "description": "Für akute, oder auch nicht unfallbedingte Beschwerden des Bewegungsapparates.",
+    "url": "https://www.functiomed.ch/notfall"
+  },
+  "navigation": {
+    "main": [
+      { "label": "Home", "url": "https://www.functiomed.ch/" },
+      { "label": "Angebot", "url": "https://www.functiomed.ch/angebot", "children": ["Komplementärmedizin", "Medizin", "Kooperationen", "Functiosport", "Partner"] },
+      { "label": "Team", "url": "https://www.functiomed.ch/team" },
+      { "label": "Wissenswertes", "url": "https://www.functiomed.ch/wissenswertes", "children": ["Tarife", "Über die Praxis", "News / Blog", "Events", "Qualität von Morgen"] },
+      { "label": "Shop", "url": "https://www.functiomed.ch/shop" },
+      { "label": "Notfall", "url": "https://www.functiomed.ch/notfall" },
+      { "label": "Kontakt", "url": "https://www.functiomed.ch/kontakt" }
+    ]
+  },
+  "footer": {
+    "links": [
+      { "label": "Anmeldung Patienten", "url": "https://www.functiomed.ch/anmeldung-patienten" },
+      { "label": "Umgang mit Patientendaten", "url": "https://www.functiomed.ch/patientendaten" },
+      { "label": "Kontakt", "url": "https://www.functiomed.ch/kontakt" },
+      { "label": "Datenschutz", "url": "https://www.functiomed.ch/datenschutz" },
+      { "label": "AGBs", "url": "https://www.functiomed.ch/agbs" },
+      { "label": "Impressum", "url": "https://www.functiomed.ch/impressum" }
+    ],
+    "copyright": "© Functiomed 2020, Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "address": "functiomed AG, Zentrum für funktionelle Medizin, Langgrütstrasse 112, CH-8047 Zürich",
+    "phone": "+41 44 401 15 15",
+    "email": "functiomed@hin.ch",
+    "wegbeschreibung": "Wegbeschreibung auf der Website"
+  },
+  "openingHours": {
+    "secretariat": "Montag – Donnerstag 08:30 – 12:00 / 13:30 – 16:30 Uhr, Freitag 08:30 – 12:00 / 13:30 – 16:00 Uhr, Samstag 09:00 – 11:00 Uhr",
+    "functioTraining": "Mo – Do 07:00 – 19:30 Uhr, Freitag 07:00 – 17:30 Uhr, Samstag 08:00 – 15:30 Uhr"
+  }
+}

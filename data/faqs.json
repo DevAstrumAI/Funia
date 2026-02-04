@@ -1,0 +1,1295 @@
+{
+  "services": {
+    "id": "services",
+    "questions": {
+      "EN": [
+        "What services do you provide?",
+        "What are your services?",
+        "What services are available?",
+        "What services do you offer?",
+        "Tell me about your services",
+        "What kind of services do you have?",
+        "What services can I get?",
+        "What do you offer?",
+        "What specialties do you have?",
+        "What departments do you have?",
+        "What medical specialties do you cover?"
+      ],
+      "DE": [
+        "Welche Leistungen bieten Sie an?",
+        "Was sind Ihre Leistungen?",
+        "Welche Leistungen haben Sie?",
+        "Welche Leistungen bieten Sie?",
+        "Welche Leistungen sind verfügbar?",
+        "Erzählen Sie mir von Ihren Leistungen",
+        "Welche Art von Leistungen haben Sie?",
+        "Welche Leistungen kann ich erhalten?",
+        "Was bieten Sie an?",
+        "Welche Fachbereiche haben Sie?",
+        "Welche Fachbereiche habt ihr?",
+        "Welche Fachrichtungen haben Sie?",
+        "Welche Abteilungen haben Sie?"
+      ],
+      "FR": [
+        "Quels services proposez-vous ?",
+        "Quels sont vos services ?",
+        "Quels services offrez-vous ?",
+        "Quels services sont disponibles ?",
+        "Parlez-moi de vos services",
+        "Quel type de services proposez-vous ?",
+        "Quels services puis-je obtenir ?",
+        "Que proposez-vous ?",
+        "Quelles spécialités avez-vous ?",
+        "Quels départements avez-vous ?",
+        "Quels domaines couvrez-vous ?"
+      ]
+    },
+    "answer": {
+      "EN": "functiomed AG offers a comprehensive medical and therapeutic range of services – interdisciplinary, coordinated, and under one roof.\n\nOur specialties at a glance:\n- Orthopedics & Traumatology\n- Rheumatology & Internal Medicine\n- Sports Medicine\n- Physiotherapy\n- Pediatric Physiotherapy (from age 6)\n- Osteopathy\n- Pediatric Osteopathy\n- Osteopathy for Pregnant Women\n- Occupational Therapy\n- Acupuncture\n- Homeopathy\n- Orthopedic Technology\n- Medical Massages\n- Integrative Medicine (e.g., gut health, micronutrients, ozone therapy, colon hydro therapy, infusion therapy)\n- Nutritional Counseling and Diagnostics\n- Mental Coaching\n- functioTraining\n\nAll services are combined individually and coordinated interdisciplinarily – with a focus on sustainable health, performance, and prevention.",
+      "DE": "Die functiomed AG bietet ein umfassendes medizinisches und therapeutisches Leistungsangebot – interdisziplinär, abgestimmt und unter einem Dach.\n\nUnsere Fachbereiche im Überblick:\n- Orthopädie & Traumatologie\n- Rheumatologie & Innere Medizin\n- Sportmedizin\n- Physiotherapie\n- Kinderphysiotherapie (ab 6 Jahren)\n- Osteopathie\n- Kinderosteopathie\n- Osteopathie für Schwangere\n- Ergotherapie\n- Akupunktur\n- Homöopathie\n- Orthopädietechnik\n- Medizinische Massagen\n- Integrative Medizin (z. B. Darmgesundheit, Mikronährstoffe, Ozontherapie, Colon Hydro Therapie, Infusionstherapie)\n- Ernährungsberatung und Diagnostik\n- Mental Coaching\n- functioTraining\n\nAlle Leistungen werden individuell kombiniert und interdisziplinär koordiniert – mit Fokus auf nachhaltige Gesundheit, Leistungsfähigkeit und Prävention.",
+      "FR": "functiomed AG propose une offre complète de prestations médicales et thérapeutiques – interdisciplinaire, coordonnée et réunie sous un même toit.\n\nNos domaines en un coup d'œil :\n- Orthopédie & Traumatologie\n- Rhumatologie & Médecine interne\n- Médecine du sport\n- Physiothérapie\n- Physiothérapie pédiatrique (dès 6 ans)\n- Ostéopathie\n- Ostéopathie pédiatrique\n- Ostéopathie pour femmes enceintes\n- Ergothérapie\n- Acupuncture\n- Homéopathie\n- Orthopédie technique\n- Massages médicaux\n- Médecine intégrative (p. ex. santé intestinale, micronutriments, ozonothérapie, hydrothérapie du côlon, perfusions)\n- Conseil nutritionnel et diagnostic\n- Coaching mental\n- functioTraining\n\nToutes les prestations sont combinées individuellement et coordonnées de manière interdisciplinaire – avec un accent sur la santé durable, la performance et la prévention."
+    }
+  },
+  "physiotherapy": {
+    "id": "physiotherapy",
+    "questions": {
+      "EN": [
+        "Tell me about physiotherapy",
+        "What is physiotherapy?",
+        "Do you offer physiotherapy?",
+        "Tell me about your physiotherapy services",
+        "What does physiotherapy involve?",
+        "How does physiotherapy work?",
+        "What can physiotherapy help with?"
+      ],
+      "DE": [
+        "Erzählen Sie mir etwas über Physiotherapie",
+        "Was ist Physiotherapie?",
+        "Bieten Sie Physiotherapie an?",
+        "Erzählen Sie mir von Ihren Physiotherapie-Dienstleistungen",
+        "Worum geht es bei Physiotherapie?",
+        "Wie funktioniert Physiotherapie?",
+        "Wobei kann Physiotherapie helfen?",
+        "Was beinhaltet Physiotherapie?"
+      ],
+      "FR": [
+        "Parlez-moi de la physiothérapie",
+        "Qu'est-ce que la physiothérapie ?",
+        "Proposez-vous de la physiothérapie ?",
+        "Parlez-moi de vos services de physiothérapie",
+        "En quoi consiste la physiothérapie ?",
+        "Comment fonctionne la physiothérapie ?",
+        "À quoi peut servir la physiothérapie ?"
+      ]
+    },
+    "answer": {
+      "EN": "Our physiotherapy services focus on restoring and improving physical function through targeted, evidence-based treatments tailored to your individual needs.<br><br>**1. Physiotherapy:** Enhance mobility, strength, and functional capacity while sustainably reducing pain. Treatments are active, personalized, and evidence-based for long-term recovery and improved quality of life.<br><br>**2. Child Physiotherapy:** Supports children's physical development through playful exercises, promoting motor skills, movement quality, coordination, and independence during key growth phases.<br><br>**3. Self-Pay Physiotherapy:** Offers goal-oriented treatments and precise testing procedures for individualized care, allowing you to actively manage your health and achieve optimal results.",
+      "DE": "Unsere Physiotherapie-Dienstleistungen konzentrieren sich darauf, die körperliche Funktion gezielt wiederherzustellen und zu verbessern – durch evidenzbasierte, individuell abgestimmte Behandlungen.<br><br>**1. Physiotherapie:** Steigerung von Beweglichkeit, Kraft und Funktionalität bei nachhaltiger Schmerzreduktion. Die Behandlungen sind aktiv, personalisiert und evidenzbasiert für langfristige Genesung und verbesserte Lebensqualität.<br><br>**2. Kinderphysiotherapie:** Unterstützt die körperliche Entwicklung von Kindern durch spielerische Übungen, fördert motorische Fähigkeiten, Bewegungsqualität, Koordination und Selbstständigkeit während wichtiger Wachstumsphasen.<br><br>**3. Selbstzahler-Physiotherapie:** Bietet zielgerichtete Behandlungen und präzise Testverfahren für eine individuelle Betreuung, damit Sie Ihre Gesundheit aktiv steuern und optimale Ergebnisse erzielen können.",
+      "FR": "Nos services de physiothérapie visent à restaurer et améliorer la fonction physique grâce à des traitements ciblés et basés sur des preuves, adaptés à vos besoins individuels.<br><br>**1. Physiothérapie :** Améliorer la mobilité, la force et la capacité fonctionnelle tout en réduisant durablement la douleur. Les traitements sont actifs, personnalisés et basés sur les dernières preuves médicales pour une récupération à long terme et une meilleure qualité de vie.<br><br>**2. Physiothérapie pour enfants :** Soutient le développement physique des enfants grâce à des exercices ludiques, favorisant les compétences motrices, la qualité du mouvement, la coordination et l'indépendance pendant les phases de croissance clés.<br><br>**3. Physiothérapie en paiement libre :** Propose des traitements ciblés et des tests précis pour des soins individualisés, vous permettant de gérer activement votre santé et d'obtenir des résultats optimaux."
+    }
+  },
+  "appointment": {
+    "id": "appointment",
+    "questions": {
+      "EN": [
+        "How to book an appointment?",
+        "How can I book an appointment?",
+        "How do I make an appointment?",
+        "How to schedule an appointment?",
+        "How to make a booking?",
+        "I want to book an appointment",
+        "Can I book an appointment?",
+        "How do I schedule a visit?"
+      ],
+      "DE": [
+        "Wie buche ich einen Termin?",
+        "Wie kann ich einen Termin buchen?",
+        "Wie kann ich einen Termin vereinbaren?",
+        "Wie mache ich einen Termin?",
+        "Wie kann ich einen Termin planen?",
+        "Ich möchte einen Termin buchen",
+        "Kann ich einen Termin buchen?",
+        "Wie kann ich einen Besuch planen?",
+        "Wie vereinbare ich einen Termin?"
+      ],
+      "FR": [
+        "Comment prendre rendez-vous ?",
+        "Comment puis-je prendre rendez-vous ?",
+        "Comment réserver un rendez-vous ?",
+        "Comment planifier un rendez-vous ?",
+        "Comment faire une réservation ?",
+        "Je veux prendre rendez-vous",
+        "Puis-je prendre rendez-vous ?",
+        "Comment puis-je planifier une visite ?"
+      ]
+    },
+    "answer": {
+      "EN": "Appointments can be booked online on our website at any time or by phone through our secretariat. Phone: +41 (0) 44 401 15 15.",
+      "DE": "Termine können jederzeit über unsere Webseite online gebucht werden oder telefonisch über unser Sekretariat. Telefon: +41 (0) 44 401 15 15.",
+      "FR": "Les rendez-vous peuvent être réservés en ligne sur notre site web à tout moment ou par téléphone auprès de notre secrétariat. Téléphone : +41 (0) 44 401 15 15."
+    }
+  },
+  "contact": {
+    "id": "contact",
+    "questions": {
+      "EN": [
+        "contact",
+        "Contact",
+        "CONTACT",
+        "How to contact you?",
+        "How can I contact you?",
+        "What is your contact information?",
+        "How do I get in touch?",
+        "What is your phone number?",
+        "What is your email?",
+        "How can I reach you?",
+        "How can I reach out to you?",
+        "How i can reach out to you?",
+        "How to reach out to you?",
+        "How do I reach out to you?",
+        "How can I get in touch with you?",
+        "How to get in touch with you?",
+        "How do I get in touch with you?",
+        "Contact details please",
+        "Where are you located?",
+        "What is your address?",
+        "Where is functiomed?",
+        "What is your location?",
+        "How do I get to functiomed?",
+        "Directions to functiomed",
+        "Where can I find you?",
+        "What is your physical address?"
+      ],
+      "DE": [
+        "kontakt",
+        "Kontakt",
+        "KONTAKT",
+        "Wie kann ich Sie kontaktieren?",
+        "Wie kann ich Sie erreichen?",
+        "Wie kann ich mit Ihnen in Kontakt treten?",
+        "Wie kann ich mich an Sie wenden?",
+        "Wie kann ich Kontakt aufnehmen?",
+        "Wie nehme ich Kontakt auf?",
+        "Wie kann ich Sie kontaktieren?",
+        "Was sind Ihre Kontaktdaten?",
+        "Wie ist Ihre Telefonnummer?",
+        "Wie ist Ihre E-Mail-Adresse?",
+        "Kontaktdaten bitte",
+        "Wie lautet Ihre Telefonnummer?",
+        "Wo befinden Sie sich?",
+        "Wie lautet Ihre Adresse?",
+        "Wo ist functiomed?",
+        "Was ist Ihre Adresse?",
+        "Wie komme ich zu functiomed?",
+        "Wegbeschreibung zu functiomed",
+        "Wo kann ich Sie finden?",
+        "Wie lautet Ihre physische Adresse?"
+      ],
+      "FR": [
+        "contact",
+        "Contact",
+        "CONTACT",
+        "Comment puis-je vous contacter ?",
+        "Comment vous contacter ?",
+        "Quelles sont vos coordonnées ?",
+        "Comment puis-je vous joindre ?",
+        "Comment puis-je vous atteindre ?",
+        "Comment puis-je entrer en contact avec vous ?",
+        "Comment entrer en contact avec vous ?",
+        "Comment puis-je vous contacter ?",
+        "Quel est votre numéro de téléphone ?",
+        "Quelle est votre adresse e-mail ?",
+        "Vos coordonnées s'il vous plaît",
+        "Où êtes-vous situé ?",
+        "Quelle est votre adresse ?",
+        "Où se trouve functiomed ?",
+        "Quelle est votre localisation ?",
+        "Comment se rendre à functiomed ?",
+        "Itinéraire vers functiomed",
+        "Où puis-je vous trouver ?",
+        "Quelle est votre adresse physique ?"
+      ]
+    },
+    "answer": {
+      "EN": "You can contact us by phone or email:\n\n**Phone:** +41 (0) 44 401 15 15\n**Email:** functiomed@hin.ch\n\n**Address:**\nLanggrütstrasse 112\nCH-8047 Zurich\n\n**Map:** [View on Google Maps](https://maps.google.com/?q=Langgrütstrasse+112,+8047+Zürich)",
+      "DE": "Sie können uns telefonisch oder per E-Mail kontaktieren:\n\n**Telefon:** +41 (0) 44 401 15 15\n**E-Mail:** functiomed@hin.ch\n\n**Adresse:**\nLanggrütstrasse 112\nCH-8047 Zürich\n\n**Karte:** [Auf Google Maps anzeigen](https://maps.google.com/?q=Langgrütstrasse+112,+8047+Zürich)",
+      "FR": "Vous pouvez nous contacter par téléphone ou par e-mail :\n\n**Téléphone :** +41 (0) 44 401 15 15\n**E-mail :** functiomed@hin.ch\n\n**Adresse :**\nLanggrütstrasse 112\nCH-8047 Zurich\n\n**Carte :** [Voir sur Google Maps](https://maps.google.com/?q=Langgrütstrasse+112,+8047+Zürich)"
+    }
+  },
+  "hours": {
+    "id": "hours",
+    "questions": {
+      "EN": [
+        "What are your hours?",
+        "What are your opening hours?",
+        "What are your opening times?",
+        "When are you open?",
+        "What time do you open?",
+        "What are your business hours?",
+        "When can I visit?",
+        "What are your office hours?",
+        "timing",
+        "timing?",
+        "what is your timing?",
+        "what are your timings?",
+        "schedule"
+      ],
+      "DE": [
+        "Wie sind Ihre Öffnungszeiten?",
+        "Wann haben Sie geöffnet?",
+        "Wann sind Sie geöffnet?",
+        "Zu welchen Zeiten haben Sie geöffnet?",
+        "Wann kann ich Sie besuchen?",
+        "Was sind Ihre Geschäftszeiten?",
+        "Wie lauten Ihre Öffnungszeiten?",
+        "Wann haben Sie auf?",
+        "Zu welchen Zeiten sind Sie erreichbar?",
+        "timing",
+        "timing?",
+        "zeiten",
+        "kalender"
+      ],
+      "FR": [
+        "Quels sont vos horaires ?",
+        "Quelles sont vos heures d'ouverture ?",
+        "Quand êtes-vous ouverts ?",
+        "À quelle heure ouvrez-vous ?",
+        "Quels sont vos horaires d'ouverture ?",
+        "timing",
+        "timing?",
+        "horaires",
+        "calendrier",
+        "Quand puis-je venir ?",
+        "Quels sont vos horaires de bureau ?",
+        "À quelles heures êtes-vous disponibles ?"
+      ]
+    },
+    "answer": {
+      "EN": "**Opening Hours:**\n\n**SECRETARIAT and telephone availability:**<br>Monday - Thursday: 08:30 – 12:00 and 13:30 – 16:30<br>Friday: 08:30 – 12:00 and 13:30 – 16:00<br>Saturday: 09:00 – 11:00<br><br>**FUNCTIOTRAINING:**<br>Monday - Thursday: 07:00 – 19:30<br>Friday: 07:00 – 17:30<br>Saturday: 08:00 – 15:30",
+      "DE": "**Öffnungszeiten:**\n\n**SEKRETARIAT und telefonische Erreichbarkeit:**<br>Montag - Donnerstag: 08:30 – 12:00 und 13:30 – 16:30 Uhr<br>Freitag: 08:30 – 12:00 und 13:30 – 16:00 Uhr<br>Samstag: 09:00 – 11:00 Uhr<br><br>**FUNCTIOTRAINING:**<br>Montag - Donnerstag: 07:00 – 19:30 Uhr<br>Freitag: 07:00 – 17:30 Uhr<br>Samstag: 08:00 – 15:30 Uhr",
+      "FR": "**Horaires d'ouverture :**\n\n**SECRÉTARIAT et disponibilité téléphonique :**<br>Lundi - Jeudi : 08h30 – 12h00 et 13h30 – 16h30<br>Vendredi : 08h30 – 12h00 et 13h30 – 16h00<br>Samedi : 09h00 – 11h00<br><br>**FUNCTIOTRAINING :**<br>Lundi - Jeudi : 07h00 – 19h30<br>Vendredi : 07h00 – 17h30<br>Samedi : 08h00 – 15h30"
+    }
+  },
+  "orthopedics_functiomed": {
+    "id": "orthopedics_functiomed",
+    "questions": {
+      "EN": [
+        "What does the orthopedics department at functiomed treat?",
+        "What does functiomed orthopedics treat?",
+        "What conditions does functiomed orthopedics handle?",
+        "What can functiomed orthopedics help with?",
+        "What does the orthopedics team at functiomed do?"
+      ],
+      "DE": [
+        "Was behandelt die Orthopädie-Abteilung bei functiomed?",
+        "Was behandelt die Orthopädie von functiomed?",
+        "Welche Erkrankungen behandelt die Orthopädie von functiomed?",
+        "Wobei kann die Orthopädie von functiomed helfen?",
+        "Was macht das Orthopädie-Team von functiomed?",
+        "Was umfasst die Orthopädie bei functiomed?"
+      ],
+      "FR": [
+        "Que traite le département d'orthopédie chez functiomed ?",
+        "Que traite l'orthopédie de functiomed ?",
+        "Quelles conditions l'orthopédie de functiomed traite-t-elle ?",
+        "À quoi peut servir l'orthopédie de functiomed ?",
+        "Que fait l'équipe d'orthopédie de functiomed ?"
+      ]
+    },
+    "answer": {
+      "EN": "Our orthopedics team helps with conditions that affect the **musculoskeletal system**. This includes problems involving **bones, joints, muscles, and tendons**, whether they are caused by injuries or chronic issues.",
+      "DE": "Unser Orthopädie-Team hilft bei Erkrankungen, die das **Bewegungsapparates** betreffen. Dazu gehören Probleme mit **Knochen, Gelenken, Muskeln und Sehnen**, egal ob sie durch Verletzungen oder chronische Beschwerden verursacht werden.",
+      "FR": "Notre équipe d'orthopédie aide à traiter les affections qui touchent l'**appareil locomoteur**. Cela inclut les problèmes concernant les **os, articulations, muscles et tendons**, qu'ils soient causés par des blessures ou des problèmes chroniques."
+    }
+  },
+  "osteopathy_suitable": {
+    "id": "osteopathy_suitable",
+    "questions": {
+      "EN": [
+        "For whom is osteopathic treatment suitable for?",
+        "Who is osteopathy suitable for?",
+        "Who can benefit from osteopathy?",
+        "Is osteopathy suitable for everyone?",
+        "Who should get osteopathic treatment?",
+        "For what age groups is osteopathy suitable?",
+        "Can anyone get osteopathy?"
+      ],
+      "DE": [
+        "Für wen ist eine osteopathische Behandlung geeignet?",
+        "Für wen ist Osteopathie geeignet?",
+        "Wer kann von Osteopathie profitieren?",
+        "Ist Osteopathie für jeden geeignet?",
+        "Wer sollte eine osteopathische Behandlung erhalten?",
+        "Für welche Altersgruppen ist Osteopathie geeignet?",
+        "Kann jeder Osteopathie erhalten?",
+        "Wer kann Osteopathie bekommen?"
+      ],
+      "FR": [
+        "Pour qui le traitement ostéopathique est-il adapté ?",
+        "Pour qui l'ostéopathie est-elle adaptée ?",
+        "Qui peut bénéficier de l'ostéopathie ?",
+        "L'ostéopathie est-elle adaptée à tous ?",
+        "Qui devrait recevoir un traitement ostéopathique ?",
+        "Pour quels groupes d'âge l'ostéopathie est-elle adaptée ?",
+        "Tout le monde peut-il recevoir de l'ostéopathie ?"
+      ]
+    },
+    "answer": {
+      "EN": "Osteopathy is suitable for people of **all ages**, from newborn babies to elderly patients.",
+      "DE": "Osteopathie ist für Menschen **jeden Alters** geeignet, von neugeborenen Babys bis zu älteren Patienten.",
+      "FR": "L'ostéopathie convient aux personnes de **tout âge**, des nouveau-nés aux patients âgés."
+    }
+  },
+  "rheumatology": {
+    "id": "rheumatology",
+    "questions": {
+      "EN": [
+        "Which conditions does rheumatology treat?",
+        "What does rheumatology treat?",
+        "What conditions does rheumatology handle?",
+        "What can rheumatology help with?",
+        "What diseases does rheumatology treat?",
+        "What does a rheumatologist treat?",
+        "What problems does rheumatology address?"
+      ],
+      "DE": [
+        "Welche Erkrankungen behandelt die Rheumatologie?",
+        "Was behandelt die Rheumatologie?",
+        "Wobei kann die Rheumatologie helfen?",
+        "Welche Krankheiten behandelt die Rheumatologie?",
+        "Was behandelt ein Rheumatologe?",
+        "Welche Probleme behandelt die Rheumatologie?",
+        "Was umfasst die Rheumatologie?"
+      ],
+      "FR": [
+        "Quelles maladies sont traitées par le service de rhumatologie ?",
+        "Que traite la rhumatologie ?",
+        "Quelles conditions la rhumatologie traite-t-elle ?",
+        "À quoi peut servir la rhumatologie ?",
+        "Quelles maladies la rhumatologie traite-t-elle ?",
+        "Que traite un rhumatologue ?",
+        "Quels problèmes la rhumatologie traite-t-elle ?"
+      ]
+    },
+    "answer": {
+      "EN": "Our rheumatology department specializes in the diagnosis and treatment of a wide range of rheumatic conditions.",
+      "DE": "Unsere Rheumatologie-Abteilung ist auf die Diagnose und Behandlung einer Vielzahl rheumatischer Erkrankungen spezialisiert.",
+      "FR": "Notre service de rhumatologie est spécialisé dans le diagnostic et le traitement d'un large éventail de conditions rhumatismales."
+    }
+  },
+  "integrative_medicine_meaning": {
+    "id": "integrative_medicine_meaning",
+    "questions": {
+      "EN": [
+        "What is meant by integrative medicine?",
+        "What does integrative medicine mean?",
+        "What is integrative medicine?",
+        "Explain integrative medicine",
+        "Define integrative medicine",
+        "What is the definition of integrative medicine?"
+      ],
+      "DE": [
+        "Was ist mit integrativer Medizin gemeint?",
+        "Was bedeutet integrative Medizin?",
+        "Was ist integrative Medizin?",
+        "Erklären Sie integrative Medizin",
+        "Definieren Sie integrative Medizin",
+        "Was ist die Definition von integrativer Medizin?",
+        "Was versteht man unter integrativer Medizin?"
+      ],
+      "FR": [
+        "Que signifie par médecine intégrative ?",
+        "Que signifie la médecine intégrative ?",
+        "Qu'est-ce que la médecine intégrative ?",
+        "Expliquez la médecine intégrative",
+        "Définissez la médecine intégrative",
+        "Quelle est la définition de la médecine intégrative ?"
+      ]
+    },
+    "answer": {
+      "EN": "Integrative medicine combines conventional and complementary medical approaches to holistically and sustainably promote the health and wellbeing of patients.<br><br>At the center is an individually tailored diagnostic and therapeutic concept that specifically activates the body's self-healing powers. The complex interrelationships between body, mind, and soul are taken into account.<br><br>Complementary medical procedures such as osteopathy, fascial therapy, orthomolecular medicine, phytotherapy, homeopathy, acupuncture, functional myodiagnostics, and neural therapy are specifically combined with conventional medical measures. This creates a personalized, effective, and prevention-oriented treatment.<br><br>**Focus areas of our integrative medicine:**<br>• Orthomolecular Medicine<br>• Gut Health & Microbiome<br>• Mitochondrial Medicine / Mitochondrial Pathologies<br>• Chronic Fatigue Syndrome (CFS)<br>• Heavy Metal Detoxification<br>• Hormone Regulation<br>• Parasites, SIBO (Small Intestinal Bacterial Overgrowth)<br>• Antibody and Immune Diagnostics<br>• Analysis of Minerals & Amino Acids",
+      "DE": "Integrative Medizin verbindet schulmedizinische und komplementärmedizinische Ansätze, um die Gesundheit und das Wohlbefinden der Patientinnen und Patienten ganzheitlich und nachhaltig zu fördern.<br><br>Im Mittelpunkt steht ein individuell abgestimmtes Diagnose- und Therapiekonzept, das die Selbstheilungskräfte gezielt aktiviert. Dabei werden die komplexen Zusammenhänge zwischen Körper, Geist und Seele berücksichtigt.<br><br>Komplementärmedizinische Verfahren wie Osteopathie, Faszientherapie, Orthomolekulare Medizin, Phytotherapie, Homöopathie, Akupunktur, Funktionelle Myodiagnostik und Neuraltherapie werden gezielt mit schulmedizinischen Massnahmen kombiniert. So entsteht eine personalisierte, effektive und präventiv orientierte Behandlung.<br><br>**Schwerpunkte unserer integrativen Medizin:**<br>• Orthomolekulare Medizin<br>• Darmgesundheit & Mikrobiom<br>• Mitochondrienmedizin / Mitochondrienpathien<br>• Chronisches Fatigue-Syndrom (CFS)<br>• Schwermetallausleitungen<br>• Hormonregulation<br>• Parasiten, SIBO (Dünndarmfehlbesiedlung)<br>• Antikörper- und Immundiagnostik<br>• Analysen von Mineralstoffen & Aminosäuren",
+      "FR": "La médecine intégrative combine les approches médicales conventionnelles et complémentaires pour promouvoir de manière holistique et durable la santé et le bien-être des patients.<br><br>Au centre se trouve un concept de diagnostic et de thérapie adapté individuellement qui active spécifiquement les forces d'auto-guérison. Les interrelations complexes entre le corps, l'esprit et l'âme sont prises en compte.<br><br>Les procédures de médecine complémentaire telles que l'ostéopathie, la thérapie fasciale, la médecine orthomoléculaire, la phytothérapie, l'homéopathie, l'acupuncture, la myodiagnostique fonctionnelle et la thérapie neurale sont spécifiquement combinées avec des mesures médicales conventionnelles. Il en résulte un traitement personnalisé, efficace et orienté vers la prévention.<br><br>**Domaines d'intervention de notre médecine intégrative :**<br>• Médecine orthomoléculaire<br>• Santé intestinale et microbiome<br>• Médecine mitochondriale / Pathologies mitochondriales<br>• Syndrome de fatigue chronique (SFC)<br>• Élimination des métaux lourds<br>• Régulation hormonale<br>• Parasites, SIBO (prolifération bactérienne de l'intestin grêle)<br>• Diagnostic des anticorps et de l'immunité<br>• Analyses des minéraux et acides aminés"
+    }
+  },
+  "integrative_medicine": {
+    "id": "integrative_medicine",
+    "questions": {
+      "EN": [
+        "What is integrative medicine?",
+        "What does integrative medicine mean?",
+        "Tell me about integrative medicine",
+        "What is meant by integrative medicine?",
+        "How does integrative medicine work?",
+        "What is the approach of integrative medicine?",
+        "Explain integrative medicine"
+      ],
+      "DE": [
+        "Was versteht man unter integrativer Medizin?",
+        "Was ist integrative Medizin?",
+        "Was bedeutet integrative Medizin?",
+        "Erzählen Sie mir von integrativer Medizin",
+        "Was ist mit integrativer Medizin gemeint?",
+        "Wie funktioniert integrative Medizin?",
+        "Was ist der Ansatz der integrativen Medizin?",
+        "Erklären Sie integrative Medizin"
+      ],
+      "FR": [
+        "Que signifie la médecine intégrative ?",
+        "Qu'est-ce que la médecine intégrative ?",
+        "Parlez-moi de la médecine intégrative",
+        "Que signifie la médecine intégrative ?",
+        "Comment fonctionne la médecine intégrative ?",
+        "Quelle est l'approche de la médecine intégrative ?",
+        "Expliquez la médecine intégrative"
+      ]
+    },
+    "answer": {
+      "EN": "Integrative medicine combines conventional and complementary medical approaches to holistically and sustainably promote the health and wellbeing of patients.<br><br>At the center is an individually tailored diagnostic and therapeutic concept that specifically activates the body's self-healing powers. The complex interrelationships between body, mind, and soul are taken into account.<br><br>Complementary medical procedures such as osteopathy, fascial therapy, orthomolecular medicine, phytotherapy, homeopathy, acupuncture, functional myodiagnostics, and neural therapy are specifically combined with conventional medical measures. This creates a personalized, effective, and prevention-oriented treatment.<br><br>**Focus areas of our integrative medicine:**<br>• Orthomolecular Medicine<br>• Gut Health & Microbiome<br>• Mitochondrial Medicine / Mitochondrial Pathologies<br>• Chronic Fatigue Syndrome (CFS)<br>• Heavy Metal Detoxification<br>• Hormone Regulation<br>• Parasites, SIBO (Small Intestinal Bacterial Overgrowth)<br>• Antibody and Immune Diagnostics<br>• Analysis of Minerals & Amino Acids",
+      "DE": "Integrative Medizin verbindet schulmedizinische und komplementärmedizinische Ansätze, um die Gesundheit und das Wohlbefinden der Patientinnen und Patienten ganzheitlich und nachhaltig zu fördern.<br><br>Im Mittelpunkt steht ein individuell abgestimmtes Diagnose- und Therapiekonzept, das die Selbstheilungskräfte gezielt aktiviert. Dabei werden die komplexen Zusammenhänge zwischen Körper, Geist und Seele berücksichtigt.<br><br>Komplementärmedizinische Verfahren wie Osteopathie, Faszientherapie, Orthomolekulare Medizin, Phytotherapie, Homöopathie, Akupunktur, Funktionelle Myodiagnostik und Neuraltherapie werden gezielt mit schulmedizinischen Massnahmen kombiniert. So entsteht eine personalisierte, effektive und präventiv orientierte Behandlung.<br><br>**Schwerpunkte unserer integrativen Medizin:**<br>• Orthomolekulare Medizin<br>• Darmgesundheit & Mikrobiom<br>• Mitochondrienmedizin / Mitochondrienpathien<br>• Chronisches Fatigue-Syndrom (CFS)<br>• Schwermetallausleitungen<br>• Hormonregulation<br>• Parasiten, SIBO (Dünndarmfehlbesiedlung)<br>• Antikörper- und Immundiagnostik<br>• Analysen von Mineralstoffen & Aminosäuren",
+      "FR": "La médecine intégrative combine les approches médicales conventionnelles et complémentaires pour promouvoir de manière holistique et durable la santé et le bien-être des patients.<br><br>Au centre se trouve un concept de diagnostic et de thérapie adapté individuellement qui active spécifiquement les forces d'auto-guérison. Les interrelations complexes entre le corps, l'esprit et l'âme sont prises en compte.<br><br>Les procédures de médecine complémentaire telles que l'ostéopathie, la thérapie fasciale, la médecine orthomoléculaire, la phytothérapie, l'homéopathie, l'acupuncture, la myodiagnostique fonctionnelle et la thérapie neurale sont spécifiquement combinées avec des mesures médicales conventionnelles. Il en résulte un traitement personnalisé, efficace et orienté vers la prévention.<br><br>**Domaines d'intervention de notre médecine intégrative :**<br>• Médecine orthomoléculaire<br>• Santé intestinale et microbiome<br>• Médecine mitochondriale / Pathologies mitochondriales<br>• Syndrome de fatigue chronique (SFC)<br>• Élimination des métaux lourds<br>• Régulation hormonale<br>• Parasites, SIBO (prolifération bactérienne de l'intestin grêle)<br>• Diagnostic des anticorps et de l'immunité<br>• Analyses des minéraux et acides aminés"
+    }
+  },
+  "doctors_team": {
+    "id": "doctors_team",
+    "questions": {
+      "EN": [
+        "Who are the doctors at the clinic?",
+        "Who are the doctors?",
+        "What doctors work here?",
+        "Tell me about the doctors",
+        "Who are your doctors?",
+        "List the doctors",
+        "What doctors are at functiomed?",
+        "Who works at functiomed?",
+        "Who is on the team?",
+        "Tell me about the team",
+        "What is your team?",
+        "Who are the team members?"
+      ],
+      "DE": [
+        "Wer sind die Ärzte in der Klinik?",
+        "Wer sind die Ärzte?",
+        "Welche Ärzte arbeiten hier?",
+        "Erzählen Sie mir von den Ärzten",
+        "Wer sind Ihre Ärzte?",
+        "Liste der Ärzte",
+        "Welche Ärzte sind bei functiomed?",
+        "Wer arbeitet bei functiomed?",
+        "Wer ist im Team?",
+        "Erzählen Sie mir vom Team",
+        "Was ist Ihr Team?",
+        "Wer sind die Teammitglieder?"
+      ],
+      "FR": [
+        "Qui sont les médecins de la clinique ?",
+        "Qui sont les médecins ?",
+        "Quels médecins travaillent ici ?",
+        "Parlez-moi des médecins",
+        "Qui sont vos médecins ?",
+        "Liste des médecins",
+        "Quels médecins sont chez functiomed ?",
+        "Qui travaille chez functiomed ?",
+        "Qui fait partie de l'équipe ?",
+        "Parlez-moi de l'équipe",
+        "Quelle est votre équipe ?",
+        "Qui sont les membres de l'équipe ?"
+      ]
+    },
+    "answer": {
+      "EN": "At functiomed, our team is as follows. Use ONLY this data for any doctor, specialist, or team query.<br><br>**Leadership**<br>• Prof. Martin Spring – CEO / founder (osteopathy, etiopathy and leadership)<br>• Dr. med. Manuel Haag – Medical director, orthopaedic surgery & traumatology<br>• Ursula Baumberger – COO / practice operations / HR / quality & admin<br>• Martin Schwendenmann – Head of physiotherapy & leadership team member<br><br>**Osteopathie │ Etiopathie**<br>• Gregory Mestré – Osteopath<br>• Mario Pichler – Osteopath<br>• Oliver Hahn – Osteopath<br>• Philipp Frank – Osteopath<br>• Tiffany Roth – Osteopath<br>• Thomas Reuter – Osteopath<br>• Yvan Zanoli – Osteopath<br>• Philipp Zuber – Osteopath<br>• Luisa Furrer – Osteopath<br>• Fanny Guggisberg – Osteopath<br>• Danique Ooms – Osteopath<br>• Mona Reuss – Osteopath<br>• Osteopathen*Innen in Ausbildung (students in training)<br><br>**Physiotherapie**<br>• Alica Baranek – Physiotherapy<br>• Robi Sedlaczek – Physiotherapy<br>• Laura Kaufmann – Physiotherapy<br>• Lea Wiler – Physiotherapy<br>• Miriam Moch – Physiotherapy<br>• Marina Schürmann – Physiotherapy<br>• Florian Gabriel – Physiotherapy<br>• Anna Franscini – Physiotherapy<br>• Patricia Grütter – Children's physiotherapy<br>• Aline von Aarburg – Physiotherapy (joining soon)<br>• Cyrill Kernwein – Physiotherapy<br><br>**Rheumatologie │ Innere Medizin**<br>• Dr. medic. Violeta Marinescu – Rheumatologist & internal medicine specialist<br><br>**Infusionen │ Colon Hydro**<br>• Melanie Mazzara – Nurse / infusion & colon hydro therapy<br>• Angel Odelin Reve Robles – Medical assistant / infusion & colon hydro therapy<br><br>**Integrative Medizin**<br>• Sophie Steger – General medicine & osteopathy / integrative medicine<br><br>**Med. Massage**<br>• Thomas Näf – Medical masseur<br>• Olga Kosarik – Masseuse<br><br>**Med. Praxisassistentinnen**<br>• Sabteca Varathan – Medical practice assistant<br>• Janine Sutter – Medical practice assistant<br>• Fabienne Fischer – Practice assistant<br><br>**Mental Coaching**<br>• Evelyne Oesch – Mental coach<br><br>**Empfang │ Administration │ Backoffice**<br>• Jelena Jauch – Assistant to leadership / reception<br>• Beatrice Liera – Reception / admin<br>• Andrea Binder – Reception / admin<br>• Anina Schädler – Reception / admin<br>• Doris Aeppli – Reception / admin<br>• Sandra Biondo – Reception / admin<br>• Carole Ruppli – Reception / admin<br>• Chiara Di Cugno – Reception / admin<br>• Selia Lakatos – Reception / admin<br>• Julia Gaiser – Backoffice<br><br>**Training │ Kurse**<br>• Sandra Biondo – Yoga for functio courses<br>• Meinrad \"Mäne\" Wiser – Fitness & training<br>• Thomas Näf – Functio training & fitness support",
+      "DE": "Bei functiomed ist unser Team wie folgt. Verwende NUR diese Daten für alle Fragen zu Ärzten, Spezialisten oder Team.<br><br>**Geschäftsleitung**<br>• Prof. Martin Spring – CEO / Gründer (Osteopathie, Etiopathie und Führung)<br>• Dr. med. Manuel Haag – Medizinischer Direktor, Orthopädische Chirurgie & Traumatologie<br>• Ursula Baumberger – COO / Praxisbetrieb / HR / Qualität & Verwaltung<br>• Martin Schwendenmann – Leiter Physiotherapie & Mitglied der Geschäftsleitung<br><br>**Osteopathie │ Etiopathie**<br>• Gregory Mestré – Osteopath<br>• Mario Pichler – Osteopath<br>• Oliver Hahn – Osteopath<br>• Philipp Frank – Osteopath<br>• Tiffany Roth – Osteopath<br>• Thomas Reuter – Osteopath<br>• Yvan Zanoli – Osteopath<br>• Philipp Zuber – Osteopath<br>• Luisa Furrer – Osteopath<br>• Fanny Guggisberg – Osteopath<br>• Danique Ooms – Osteopath<br>• Mona Reuss – Osteopath<br>• Osteopathen*Innen in Ausbildung<br><br>**Physiotherapie**<br>• Alica Baranek – Physiotherapie<br>• Robi Sedlaczek – Physiotherapie<br>• Laura Kaufmann – Physiotherapie<br>• Lea Wiler – Physiotherapie<br>• Miriam Moch – Physiotherapie<br>• Marina Schürmann – Physiotherapie<br>• Florian Gabriel – Physiotherapie<br>• Anna Franscini – Physiotherapie<br>• Patricia Grütter – Kinderphysiotherapie<br>• Aline von Aarburg – Physiotherapie (kommt bald)<br>• Cyrill Kernwein – Physiotherapie<br><br>**Rheumatologie │ Innere Medizin**<br>• Dr. medic. Violeta Marinescu – Rheumatologin & Fachärztin Innere Medizin<br><br>**Infusionen │ Colon Hydro**<br>• Melanie Mazzara – Pflegefachperson / Infusion & Colon-Hydro-Therapie<br>• Angel Odelin Reve Robles – Medizinische Assistenz / Infusion & Colon-Hydro-Therapie<br><br>**Integrative Medizin**<br>• Sophie Steger – Allgemeinmedizin & Osteopathie / Integrative Medizin<br><br>**Med. Massage**<br>• Thomas Näf – Med. Masseur<br>• Olga Kosarik – Masseurin<br><br>**Med. Praxisassistentinnen**<br>• Sabteca Varathan – Medizinische Praxisassistentin<br>• Janine Sutter – Medizinische Praxisassistentin<br>• Fabienne Fischer – Praxisassistentin<br><br>**Mental Coaching**<br>• Evelyne Oesch – Mental Coach<br><br>**Empfang │ Administration │ Backoffice**<br>• Jelena Jauch – Assistentin der Geschäftsleitung / Empfang<br>• Beatrice Liera – Empfang / Admin<br>• Andrea Binder – Empfang / Admin<br>• Anina Schädler – Empfang / Admin<br>• Doris Aeppli – Empfang / Admin<br>• Sandra Biondo – Empfang / Admin<br>• Carole Ruppli – Empfang / Admin<br>• Chiara Di Cugno – Empfang / Admin<br>• Selia Lakatos – Empfang / Admin<br>• Julia Gaiser – Backoffice<br><br>**Training │ Kurse**<br>• Sandra Biondo – Yoga für Functio-Kurse<br>• Meinrad \"Mäne\" Wiser – Fitness & Training<br>• Thomas Näf – Functio Training & Fitness-Unterstützung",
+      "FR": "Chez functiomed, notre équipe est la suivante. Utilisez UNIQUEMENT ces données pour toute question sur les médecins, spécialistes ou l'équipe.<br><br>**Direction**<br>• Prof. Martin Spring – PDG / fondateur (ostéopathie, étiopathie et direction)<br>• Dr. med. Manuel Haag – Directeur médical, chirurgie orthopédique et traumatologie<br>• Ursula Baumberger – COO / opérations de la pratique / RH / qualité et admin<br>• Martin Schwendenmann – Chef de physiothérapie et membre de la direction<br><br>**Ostéopathie │ Étiopathie**<br>• Gregory Mestré – Ostéopathe<br>• Mario Pichler – Ostéopathe<br>• Oliver Hahn – Ostéopathe<br>• Philipp Frank – Ostéopathe<br>• Tiffany Roth – Ostéopathe<br>• Thomas Reuter – Ostéopathe<br>• Yvan Zanoli – Ostéopathe<br>• Philipp Zuber – Ostéopathe<br>• Luisa Furrer – Ostéopathe<br>• Fanny Guggisberg – Ostéopathe<br>• Danique Ooms – Ostéopathe<br>• Mona Reuss – Ostéopathe<br>• Ostéopathes en formation<br><br>**Physiothérapie**<br>• Alica Baranek – Physiothérapie<br>• Robi Sedlaczek – Physiothérapie<br>• Laura Kaufmann – Physiothérapie<br>• Lea Wiler – Physiothérapie<br>• Miriam Moch – Physiothérapie<br>• Marina Schürmann – Physiothérapie<br>• Florian Gabriel – Physiothérapie<br>• Anna Franscini – Physiothérapie<br>• Patricia Grütter – Physiothérapie pour enfants<br>• Aline von Aarburg – Physiothérapie (arrive bientôt)<br>• Cyrill Kernwein – Physiothérapie<br><br>**Rhumatologie │ Médecine interne**<br>• Dr. medic. Violeta Marinescu – Rhumatologue et spécialiste en médecine interne<br><br>**Infusions │ Colon Hydro**<br>• Melanie Mazzara – Infirmière / perfusion et thérapie colon hydro<br>• Angel Odelin Reve Robles – Assistant médical / perfusion et thérapie colon hydro<br><br>**Médecine intégrative**<br>• Sophie Steger – Médecine générale et ostéopathie / médecine intégrative<br><br>**Massage médical**<br>• Thomas Näf – Masseur médical<br>• Olga Kosarik – Masseuse<br><br>**Assistantes de pratique médicale**<br>• Sabteca Varathan – Assistante de pratique médicale<br>• Janine Sutter – Assistante de pratique médicale<br>• Fabienne Fischer – Assistante de pratique<br><br>**Mental Coaching**<br>• Evelyne Oesch – Coach mental<br><br>**Réception │ Administration │ Backoffice**<br>• Jelena Jauch – Assistante de la direction / réception<br>• Beatrice Liera – Réception / admin<br>• Andrea Binder – Réception / admin<br>• Anina Schädler – Réception / admin<br>• Doris Aeppli – Réception / admin<br>• Sandra Biondo – Réception / admin<br>• Carole Ruppli – Réception / admin<br>• Chiara Di Cugno – Réception / admin<br>• Selia Lakatos – Réception / admin<br>• Julia Gaiser – Backoffice<br><br>**Training │ Cours**<br>• Sandra Biondo – Yoga pour les cours functio<br>• Meinrad \"Mäne\" Wiser – Fitness et training<br>• Thomas Näf – Functio training et soutien fitness"
+    }
+  },
+  "complementary_medicine_functiomed": {
+    "id": "complementary_medicine_functiomed",
+    "questions": {
+      "EN": [
+        "What does complementary medicine at functiomed include?",
+        "What is included in functiomed complementary medicine?",
+        "What does functiomed complementary medicine consist of?",
+        "What treatments are in functiomed complementary medicine?",
+        "What services are part of functiomed complementary medicine?"
+      ],
+      "DE": [
+        "Was umfasst die Komplementärmedizin bei functiomed?",
+        "Was ist in der Komplementärmedizin enthalten?",
+        "Woraus besteht die Komplementärmedizin?",
+        "Welche Behandlungen sind in der Komplementärmedizin?",
+        "Welche Dienstleistungen sind Teil der Komplementärmedizin?",
+        "Was bietet die Komplementärmedizin?",
+        "Welche Therapien sind in der Komplementärmedizin?",
+        "Was gehört zur Komplementärmedizin?"
+      ],
+      "FR": [
+        "Que comprend la médecine complémentaire chez functiomed ?",
+        "Qu'est-ce qui est inclus dans la médecine complémentaire de functiomed ?",
+        "En quoi consiste la médecine complémentaire de functiomed ?",
+        "Quels traitements font partie de la médecine complémentaire de functiomed ?",
+        "Quels services font partie de la médecine complémentaire de functiomed ?"
+      ]
+    },
+    "answer": {
+      "EN": "Our complementary medicine includes **acupuncture**, **homeopathy**, **medical massages**, and other alternative healing methods.",
+      "DE": "Unsere Komplementärmedizin umfasst **Akupunktur**, **Homöopathie**, **medizinische Massagen** und andere alternative Heilmethoden.",
+      "FR": "Notre médecine complémentaire comprend **l'acupuncture**, **l'homéopathie**, les **massages thérapeutiques** et d'autres méthodes de guérison alternatives."
+    }
+  },
+  "complementary_medicine": {
+    "id": "complementary_medicine",
+    "questions": {
+      "EN": [
+        "What does complementary medicine include?",
+        "What is included in complementary medicine?",
+        "What does complementary medicine consist of?",
+        "What treatments are in complementary medicine?",
+        "What services are part of complementary medicine?",
+        "What does complementary medicine offer?",
+        "What therapies are in complementary medicine?"
+      ],
+      "DE": [
+        "Was umfasst die Komplementärmedizin bei functiomed?",
+        "Was ist in der Komplementärmedizin enthalten?",
+        "Woraus besteht die Komplementärmedizin?",
+        "Welche Behandlungen sind in der Komplementärmedizin?",
+        "Welche Dienstleistungen sind Teil der Komplementärmedizin?",
+        "Was bietet die Komplementärmedizin?",
+        "Welche Therapien sind in der Komplementärmedizin?",
+        "Was gehört zur Komplementärmedizin?"
+      ],
+      "FR": [
+        "Que comprend la médecine complémentaire chez functiomed ?",
+        "Qu'est-ce qui est inclus dans la médecine complémentaire ?",
+        "En quoi consiste la médecine complémentaire ?",
+        "Quels traitements font partie de la médecine complémentaire ?",
+        "Quels services font partie de la médecine complémentaire ?",
+        "Que propose la médecine complémentaire ?",
+        "Quelles thérapies font partie de la médecine complémentaire ?"
+      ]
+    },
+    "answer": {
+      "EN": "Our complementary medicine includes **acupuncture**, **homeopathy**, **medical massages**, and other alternative healing methods.",
+      "DE": "Unsere Komplementärmedizin umfasst **Akupunktur**, **Homöopathie**, **medizinische Massagen** und andere alternative Heilmethoden.",
+      "FR": "Notre médecine complémentaire comprend **l'acupuncture**, **l'homéopathie**, les **massages thérapeutiques** et d'autres méthodes de guérison alternatives."
+    }
+  },
+  "parking": {
+    "id": "parking",
+    "questions": {
+      "EN": [
+        "Are there parking facilities at functiomed?",
+        "Is there parking available?",
+        "Do you have parking?",
+        "Is parking available at functiomed?",
+        "Can I park at functiomed?",
+        "Are there parking spaces?",
+        "Is there free parking?",
+        "Where can I park?"
+      ],
+      "DE": [
+        "Gibt es Parkmöglichkeiten bei functiomed?",
+        "Gibt es einen Parkplatz?",
+        "Haben Sie Parkplätze?",
+        "Ist Parken bei functiomed verfügbar?",
+        "Kann ich bei functiomed parken?",
+        "Gibt es Parkplätze?",
+        "Gibt es kostenlose Parkplätze?",
+        "Wo kann ich parken?",
+        "Ist Parken möglich?"
+      ],
+      "FR": [
+        "Y a-t-il des places de parking chez functiomed ?",
+        "Y a-t-il un parking disponible ?",
+        "Avez-vous un parking ?",
+        "Le parking est-il disponible chez functiomed ?",
+        "Puis-je me garer chez functiomed ?",
+        "Y a-t-il des places de stationnement ?",
+        "Y a-t-il un parking gratuit ?",
+        "Où puis-je me garer ?"
+      ]
+    },
+    "answer": {
+      "EN": "**Yes**, you'll find **free parking spaces** right in front of our practice, and there are also public parking options in the nearby area.",
+      "DE": "**Ja**, Sie finden **kostenlose Parkplätze** direkt vor unserer Praxis, und es gibt auch öffentliche Parkmöglichkeiten in der Nähe.",
+      "FR": "**Oui**, vous trouverez des **places de parking gratuites** juste devant notre cabinet, et il y a également des options de stationnement public dans les environs."
+    }
+  },
+  "languages": {
+    "id": "languages",
+    "questions": {
+      "EN": [
+        "Which languages do the staff speak?",
+        "Which languages do you speak?",
+        "What languages do you speak?",
+        "What languages are spoken?",
+        "Do you speak English?",
+        "What languages are available?",
+        "Can I speak in English?",
+        "What languages do your staff speak?",
+        "Are there multilingual staff?"
+      ],
+      "DE": [
+        "Welche Sprachen sprechen die Mitarbeitenden?",
+        "Welche Sprachen sprechen Sie?",
+        "Welche Sprachen werden gesprochen?",
+        "Sprechen Sie Deutsch?",
+        "Welche Sprachen sind verfügbar?",
+        "Kann ich auf Deutsch sprechen?",
+        "Welche Sprachen spricht Ihr Personal?",
+        "Gibt es mehrsprachiges Personal?",
+        "In welchen Sprachen kann ich kommunizieren?"
+      ],
+      "FR": [
+        "Quelles langues le personnel parle-t-il ?",
+        "Quelles langues parlez-vous ?",
+        "Quelles langues sont parlées ?",
+        "Parlez-vous français ?",
+        "Quelles langues sont disponibles ?",
+        "Puis-je parler en français ?",
+        "Quelles langues votre personnel parle-t-il ?",
+        "Y a-t-il du personnel multilingue ?"
+      ]
+    },
+    "answer": {
+      "EN": "We speak German and English.\nDepending on the specialty and therapist, other languages may also be possible.\nIf a specific language is important to you, please let us know briefly when scheduling your appointment – we will be happy to check whether we can organize this appropriately for you.",
+      "DE": "Wir sprechen Deutsch und Englisch.\nJe nach Fachbereich und Therapeut:in sind auch weitere Sprachen möglich.\nWenn Dir eine bestimmte Sprache wichtig ist, gib uns bei der Terminvereinbarung kurz Bescheid – wir prüfen gerne, ob wir das für Dich passend organisieren können.",
+      "FR": "Nous parlons uniquement **allemand** et **anglais**. Faites-nous savoir votre langue préférée afin que nous puissions rendre votre visite aussi confortable que possible."
+    }
+  },
+  "sports_medicine": {
+    "id": "sports_medicine",
+    "questions": {
+      "EN": [
+        "What services does sports medicine offer?",
+        "What does sports medicine offer?",
+        "What services are available in sports medicine?",
+        "What can sports medicine help with?",
+        "What does sports medicine do?",
+        "Tell me about sports medicine",
+        "What treatments does sports medicine provide?"
+      ],
+      "DE": [
+        "Welche Leistungen bietet die Sportmedizin?",
+        "Was bietet die Sportmedizin?",
+        "Welche Dienstleistungen sind in der Sportmedizin verfügbar?",
+        "Wobei kann die Sportmedizin helfen?",
+        "Was macht die Sportmedizin?",
+        "Erzählen Sie mir von der Sportmedizin",
+        "Welche Behandlungen bietet die Sportmedizin?",
+        "Was umfasst die Sportmedizin?"
+      ],
+      "FR": [
+        "Quels services offre la médecine du sport ?",
+        "Que propose la médecine du sport ?",
+        "Quels services sont disponibles en médecine du sport ?",
+        "À quoi peut servir la médecine du sport ?",
+        "Que fait la médecine du sport ?",
+        "Parlez-moi de la médecine du sport",
+        "Quels traitements la médecine du sport fournit-elle ?"
+      ]
+    },
+    "answer": {
+      "EN": "We provide comprehensive support for athletes, from **preventing** injuries to **diagnosing** and **treating** sports-related problems. We're here for both **recreational** and **professional** athletes.",
+      "DE": "Wir bieten umfassende Unterstützung für Sportler, von der **Prävention** von Verletzungen bis zur **Diagnose** und **Behandlung** sportbedingter Probleme. Wir sind für **Freizeit-** und **Profisportler** da.",
+      "FR": "Nous offrons un soutien complet aux athlètes, de la **prévention** des blessures au **diagnostic** et au **traitement** des problèmes liés au sport. Nous sommes là pour les athlètes **amateurs** et **professionnels**."
+    }
+  },
+  "referral": {
+    "id": "referral",
+    "questions": {
+      "EN": [
+        "Do I need a referral for an appointment?",
+        "Do I need a referral?",
+        "Is a referral required?",
+        "Do I need a doctor's referral?",
+        "Can I book without a referral?",
+        "Is a referral necessary?",
+        "Do you require a referral?",
+        "Can I come without a referral?"
+      ],
+      "DE": [
+        "Benötige ich eine Überweisung für einen Termin?",
+        "Brauche ich eine Überweisung?",
+        "Ist eine Überweisung erforderlich?",
+        "Brauche ich eine ärztliche Überweisung?",
+        "Kann ich ohne Überweisung buchen?",
+        "Ist eine Überweisung notwendig?",
+        "Benötigen Sie eine Überweisung?",
+        "Kann ich ohne Überweisung kommen?",
+        "Muss ich eine Überweisung haben?"
+      ],
+      "FR": [
+        "Ai-je besoin d'une ordonnance pour un rendez-vous ?",
+        "Ai-je besoin d'une ordonnance ?",
+        "Une ordonnance est-elle requise ?",
+        "Ai-je besoin d'une ordonnance médicale ?",
+        "Puis-je réserver sans ordonnance ?",
+        "Une ordonnance est-elle nécessaire ?",
+        "Exigez-vous une ordonnance ?",
+        "Puis-je venir sans ordonnance ?"
+      ]
+    },
+    "answer": {
+      "EN": "**Not necessarily**. You can book an appointment directly with us unless you're part of a special insurance model, such as the primary care physician model, which may require a referral.",
+      "DE": "**Nicht unbedingt**. Sie können direkt einen Termin bei uns buchen, es sei denn, Sie sind Teil eines speziellen Versicherungsmodells, wie z.B. das Hausarztmodell, das möglicherweise eine Überweisung erfordert.",
+      "FR": "**Pas nécessairement**. Vous pouvez prendre rendez-vous directement avec nous sauf si vous faites partie d'un modèle d'assurance spécial, tel que le modèle de médecin de famille, qui peut nécessiter une ordonnance."
+    }
+  },
+  "insurance_coverage": {
+    "id": "insurance_coverage",
+    "questions": {
+      "EN": [
+        "Are the costs covered by health insurance?",
+        "Is it covered by insurance?",
+        "Does insurance cover the costs?",
+        "Will my insurance pay?",
+        "Is treatment covered by insurance?",
+        "Does health insurance cover this?",
+        "Are services covered by insurance?",
+        "What does insurance cover?"
+      ],
+      "DE": [
+        "Werden die Kosten von der Krankenkasse übernommen?",
+        "Ist es von der Versicherung abgedeckt?",
+        "Übernimmt die Versicherung die Kosten?",
+        "Wird meine Versicherung zahlen?",
+        "Ist die Behandlung von der Versicherung abgedeckt?",
+        "Deckt die Krankenversicherung dies ab?",
+        "Sind die Dienstleistungen von der Versicherung abgedeckt?",
+        "Was deckt die Versicherung ab?",
+        "Werden die Kosten übernommen?"
+      ],
+      "FR": [
+        "Les coûts sont-ils couverts par l'assurance maladie ?",
+        "Est-ce couvert par l'assurance ?",
+        "L'assurance couvre-t-elle les coûts ?",
+        "Mon assurance paiera-t-elle ?",
+        "Le traitement est-il couvert par l'assurance ?",
+        "L'assurance maladie couvre-t-elle cela ?",
+        "Les services sont-ils couverts par l'assurance ?",
+        "Que couvre l'assurance ?"
+      ]
+    },
+    "answer": {
+      "EN": "Most orthopedic and traumatology treatments are covered by **basic** health insurance or **accident** insurance. We always recommend checking with your insurance provider in advance to understand exactly what is covered for your specific situation.",
+      "DE": "Die meisten orthopädischen und traumatologischen Behandlungen werden von der **Grundversicherung** oder **Unfallversicherung** übernommen. Wir empfehlen immer, vorab bei Ihrer Versicherung nachzufragen, um genau zu verstehen, was für Ihre spezifische Situation abgedeckt ist.",
+      "FR": "La plupart des traitements orthopédiques et traumatologiques sont couverts par **l'assurance de base** ou **l'assurance accident**. Nous recommandons toujours de vérifier auprès de votre assureur à l'avance pour comprendre exactement ce qui est couvert pour votre situation spécifique."
+    }
+  },
+  "osteopathy_sessions": {
+    "id": "osteopathy_sessions",
+    "questions": {
+      "EN": [
+        "How many sessions are necessary?",
+        "How many sessions do I need?",
+        "How many treatments are needed?",
+        "How many sessions will I need?",
+        "How many visits are required?",
+        "How many sessions are typically needed?",
+        "What is the number of sessions needed?"
+      ],
+      "DE": [
+        "Wie viele Sitzungen sind notwendig?",
+        "Wie viele Sitzungen brauche ich?",
+        "Wie viele Behandlungen sind nötig?",
+        "Wie viele Sitzungen werde ich brauchen?",
+        "Wie viele Besuche sind erforderlich?",
+        "Wie viele Sitzungen sind normalerweise nötig?",
+        "Wie viele Sitzungen sind erforderlich?",
+        "Wie viele Termine brauche ich?"
+      ],
+      "FR": [
+        "Combien de séances sont nécessaires ?",
+        "Combien de séances ai-je besoin ?",
+        "Combien de traitements sont nécessaires ?",
+        "Combien de séances vais-je avoir besoin ?",
+        "Combien de visites sont requises ?",
+        "Combien de séances sont généralement nécessaires ?",
+        "Quel est le nombre de séances nécessaires ?"
+      ]
+    },
+    "answer": {
+      "EN": "This depends on your individual situation. Many patients benefit from several sessions, but the exact number varies from case to case.",
+      "DE": "Das hängt von Ihrer individuellen Situation ab. Viele Patienten profitieren von mehreren Sitzungen, aber die genaue Anzahl variiert von Fall zu Fall.",
+      "FR": "Cela dépend de votre situation individuelle. De nombreux patients bénéficient de plusieurs séances, mais le nombre exact varie d'un cas à l'autre."
+    }
+  },
+  "osteopathy_insurance": {
+    "id": "osteopathy_insurance",
+    "questions": {
+      "EN": [
+        "Is osteopathy covered by health insurance?",
+        "Does insurance cover osteopathy?",
+        "Is osteopathy covered by insurance?",
+        "Will insurance pay for osteopathy?",
+        "Does health insurance cover osteopathy?",
+        "Is osteopathic treatment covered?",
+        "Can I use insurance for osteopathy?"
+      ],
+      "DE": [
+        "Wird Osteopathie von der Krankenkasse bezahlt?",
+        "Übernimmt die Versicherung Osteopathie?",
+        "Ist Osteopathie von der Versicherung abgedeckt?",
+        "Wird die Versicherung für Osteopathie zahlen?",
+        "Deckt die Krankenversicherung Osteopathie ab?",
+        "Ist die osteopathische Behandlung abgedeckt?",
+        "Kann ich die Versicherung für Osteopathie nutzen?",
+        "Wird Osteopathie von der Versicherung übernommen?"
+      ],
+      "FR": [
+        "L'ostéopathie est-elle couverte par l'assurance maladie ?",
+        "L'assurance couvre-t-elle l'ostéopathie ?",
+        "L'ostéopathie est-elle couverte par l'assurance ?",
+        "L'assurance paiera-t-elle pour l'ostéopathie ?",
+        "L'assurance maladie couvre-t-elle l'ostéopathie ?",
+        "Le traitement ostéopathique est-il couvert ?",
+        "Puis-je utiliser l'assurance pour l'ostéopathie ?"
+      ]
+    },
+    "answer": {
+      "EN": "**Supplementary insurance** often covers **part of the costs**. It's always best for patients to check their coverage in advance.",
+      "DE": "**Zusatzversicherungen** übernehmen oft einen **Teil der Kosten**. Es ist immer am besten, wenn Patienten ihre Deckung im Voraus prüfen.",
+      "FR": "**L'assurance complémentaire** couvre souvent une **partie des coûts**. Il est toujours préférable que les patients vérifient leur couverture à l'avance."
+    }
+  },
+  "internal_medicine": {
+    "id": "internal_medicine",
+    "questions": {
+      "EN": [
+        "What does internal medicine at functiomed include?",
+        "What is included in internal medicine?",
+        "What does internal medicine cover?",
+        "What does internal medicine treat?",
+        "What conditions does internal medicine handle?",
+        "What services are in internal medicine?",
+        "Tell me about internal medicine"
+      ],
+      "DE": [
+        "Was umfasst die Innere Medizin bei functiomed?",
+        "Was ist in der Inneren Medizin enthalten?",
+        "Was umfasst die Innere Medizin?",
+        "Was behandelt die Innere Medizin?",
+        "Welche Erkrankungen behandelt die Innere Medizin?",
+        "Welche Dienstleistungen sind in der Inneren Medizin?",
+        "Erzählen Sie mir von der Inneren Medizin",
+        "Was gehört zur Inneren Medizin?"
+      ],
+      "FR": [
+        "Que comprend la médecine interne chez functiomed ?",
+        "Qu'est-ce qui est inclus dans la médecine interne ?",
+        "Que couvre la médecine interne ?",
+        "Que traite la médecine interne ?",
+        "Quelles conditions la médecine interne traite-t-elle ?",
+        "Quels services sont dans la médecine interne ?",
+        "Parlez-moi de la médecine interne"
+      ]
+    },
+    "answer": {
+      "EN": "Internal medicine at functiomed focuses on the prevention, diagnosis, and treatment of diseases affecting the body's **internal organs**. This includes conditions related to the **heart, lungs, liver, kidneys**, and other vital systems. Our specialists take a comprehensive approach, considering the overall health of each patient, to provide accurate diagnoses, effective treatment plans, and ongoing care for both acute and chronic medical conditions.",
+      "DE": "Die Innere Medizin bei functiomed konzentriert sich auf die Prävention, Diagnose und Behandlung von Erkrankungen, die die **inneren Organe** des Körpers betreffen. Dazu gehören Erkrankungen im Zusammenhang mit **Herz, Lunge, Leber, Nieren** und anderen lebenswichtigen Systemen. Unsere Spezialisten verfolgen einen umfassenden Ansatz und berücksichtigen die allgemeine Gesundheit jedes Patienten, um genaue Diagnosen, wirksame Behandlungspläne und kontinuierliche Betreuung sowohl für akute als auch chronische Erkrankungen bereitzustellen.",
+      "FR": "La médecine interne chez functiomed se concentre sur la prévention, le diagnostic et le traitement des maladies affectant les **organes internes** du corps. Cela inclut les conditions liées au **cœur, poumons, foie, reins** et autres systèmes vitaux. Nos spécialistes adoptent une approche globale, en tenant compte de la santé générale de chaque patient, pour fournir des diagnostics précis, des plans de traitement efficaces et des soins continus pour les affections médicales aiguës et chroniques."
+    }
+  },
+  "diagnosis": {
+    "id": "diagnosis",
+    "questions": {
+      "EN": [
+        "How is the diagnosis made?",
+        "How do you make a diagnosis?",
+        "How is diagnosis done?",
+        "What methods are used for diagnosis?",
+        "How do you diagnose conditions?",
+        "What is the diagnostic process?",
+        "How are diagnoses made?"
+      ],
+      "DE": [
+        "Wie erfolgt die Diagnosestellung?",
+        "Wie stellen Sie eine Diagnose?",
+        "Wie wird die Diagnose gestellt?",
+        "Welche Methoden werden für die Diagnose verwendet?",
+        "Wie diagnostizieren Sie Erkrankungen?",
+        "Wie ist der Diagnoseprozess?",
+        "Wie werden Diagnosen gestellt?",
+        "Wie wird diagnostiziert?"
+      ],
+      "FR": [
+        "Comment est posée la diagnosis ?",
+        "Comment faites-vous un diagnostic ?",
+        "Comment le diagnostic est-il fait ?",
+        "Quelles méthodes sont utilisées pour le diagnostic ?",
+        "Comment diagnostiquez-vous les conditions ?",
+        "Quel est le processus de diagnostic ?",
+        "Comment les diagnostics sont-ils posés ?"
+      ]
+    },
+    "answer": {
+      "EN": "We use a combination of **laboratory tests** and modern **imaging techniques** to ensure an accurate diagnosis.",
+      "DE": "Wir verwenden eine Kombination aus **Labortests** und modernen **Bildgebungsverfahren**, um eine genaue Diagnose zu gewährleisten.",
+      "FR": "Nous utilisons une combinaison d'**analyses de laboratoire** et de **techniques d'imagerie modernes** pour assurer un diagnostic précis."
+    }
+  },
+  "fasting": {
+    "id": "fasting",
+    "questions": {
+      "EN": [
+        "Do I need to fast for a blood test?",
+        "Do I need to fast before a blood test?",
+        "Should I fast before blood work?",
+        "Is fasting required for blood tests?",
+        "Do I need to skip meals before a blood test?",
+        "Can I eat before a blood test?",
+        "What are the fasting requirements for blood tests?"
+      ],
+      "DE": [
+        "Muss ich nüchtern zur Blutabnahme erscheinen?",
+        "Muss ich vor einer Blutuntersuchung fasten?",
+        "Sollte ich vor der Blutabnahme fasten?",
+        "Ist Fasten für Blutuntersuchungen erforderlich?",
+        "Muss ich vor einer Blutuntersuchung auf Mahlzeiten verzichten?",
+        "Kann ich vor einer Blutuntersuchung essen?",
+        "Was sind die Fastenanforderungen für Blutuntersuchungen?",
+        "Muss ich nüchtern sein?"
+      ],
+      "FR": [
+        "Dois-je jeûner pour une prise de sang ?",
+        "Dois-je jeûner avant une prise de sang ?",
+        "Dois-je jeûner avant les analyses sanguines ?",
+        "Le jeûne est-il requis pour les analyses sanguines ?",
+        "Dois-je sauter des repas avant une prise de sang ?",
+        "Puis-je manger avant une prise de sang ?",
+        "Quelles sont les exigences de jeûne pour les analyses sanguines ?"
+      ]
+    },
+    "answer": {
+      "EN": "For certain blood tests, fasting is required. We will inform you in advance.",
+      "DE": "Einige Bluttests erfordern Fasten. Keine Sorge, wir informieren Sie im Voraus, falls dies auf Sie zutrifft.",
+      "FR": "Certains tests sanguins nécessitent le jeûne. Ne vous inquiétez pas, nous vous informerons à l'avance si cela s'applique à vous."
+    }
+  },
+  "integrative_science": {
+    "id": "integrative_science",
+    "questions": {
+      "EN": [
+        "Is integrative medicine scientifically recognized?",
+        "Is integrative medicine evidence-based?",
+        "Is integrative medicine scientifically proven?",
+        "Is integrative medicine backed by science?",
+        "Is there scientific evidence for integrative medicine?",
+        "Is integrative medicine scientifically valid?",
+        "Does integrative medicine have scientific support?"
+      ],
+      "DE": [
+        "Ist integrative Medizin wissenschaftlich anerkannt?",
+        "Ist integrative Medizin evidenzbasiert?",
+        "Ist integrative Medizin wissenschaftlich bewiesen?",
+        "Wird integrative Medizin von der Wissenschaft unterstützt?",
+        "Gibt es wissenschaftliche Beweise für integrative Medizin?",
+        "Ist integrative Medizin wissenschaftlich gültig?",
+        "Hat integrative Medizin wissenschaftliche Unterstützung?",
+        "Ist integrative Medizin wissenschaftlich fundiert?"
+      ],
+      "FR": [
+        "La médecine intégrative est-elle scientifiquement reconnue ?",
+        "La médecine intégrative est-elle basée sur des preuves ?",
+        "La médecine intégrative est-elle scientifiquement prouvée ?",
+        "La médecine intégrative est-elle soutenue par la science ?",
+        "Y a-t-il des preuves scientifiques pour la médecine intégrative ?",
+        "La médecine intégrative est-elle scientifiquement valide ?",
+        "La médecine intégrative a-t-elle un soutien scientifique ?"
+      ]
+    },
+    "answer": {
+      "EN": "Many of the methods we use have been scientifically examined and work well alongside conventional medicine.",
+      "DE": "Viele der von uns angewandten Methoden wurden wissenschaftlich untersucht und ergänzen die Schulmedizin sehr gut.",
+      "FR": "De nombreuses méthodes que nous utilisons ont été examinées scientifiquement et fonctionnent bien en complément de la médecine conventionnelle."
+    }
+  },
+  "therapy_selection": {
+    "id": "therapy_selection",
+    "questions": {
+      "EN": [
+        "How do I find the right therapy for me?",
+        "How can I choose the right therapy?",
+        "How do I select the best therapy?",
+        "Which therapy is right for me?",
+        "How do I know which therapy to choose?",
+        "What therapy should I get?",
+        "How to choose the right treatment?",
+        "Which treatment is best for me?"
+      ],
+      "DE": [
+        "Wie finde ich die passende Therapie für mich?",
+        "Wie kann ich die richtige Therapie wählen?",
+        "Wie wähle ich die beste Therapie?",
+        "Welche Therapie ist die richtige für mich?",
+        "Wie weiß ich, welche Therapie ich wählen soll?",
+        "Welche Therapie sollte ich erhalten?",
+        "Wie wähle ich die richtige Behandlung?",
+        "Welche Behandlung ist die beste für mich?",
+        "Wie finde ich die richtige Behandlung?"
+      ],
+      "FR": [
+        "Comment trouver la thérapie qui me convient ?",
+        "Comment puis-je choisir la bonne thérapie ?",
+        "Comment sélectionner la meilleure thérapie ?",
+        "Quelle thérapie me convient ?",
+        "Comment savoir quelle thérapie choisir ?",
+        "Quelle thérapie devrais-je obtenir ?",
+        "Comment choisir le bon traitement ?",
+        "Quel traitement est le meilleur pour moi ?"
+      ]
+    },
+    "answer": {
+      "EN": "Choosing the right therapy depends on your individual health needs, goals, and preferences. During a **personal consultation**, our specialists will review your medical history, discuss your symptoms, and assess your overall condition. Based on this information, we will recommend the most suitable treatment options and create a tailored plan to help you achieve the best possible results for your health and well-being.",
+      "DE": "Die Wahl der richtigen Therapie hängt von Ihren individuellen Gesundheitsbedürfnissen, Zielen und Vorlieben ab. In einem **persönlichen Gespräch** prüfen unsere Spezialisten Ihre Krankengeschichte, besprechen Ihre Symptome und beurteilen Ihren allgemeinen Zustand. Auf dieser Grundlage empfehlen wir die am besten geeigneten Behandlungsmöglichkeiten und erstellen einen individuell zugeschnittenen Plan, um die bestmöglichen Ergebnisse für Ihre Gesundheit und Ihr Wohlbefinden zu erzielen.",
+      "FR": "Le choix de la thérapie appropriée dépend de vos besoins de santé, de vos objectifs et de vos préférences individuels. Lors d'une **consultation personnelle**, nos spécialistes examineront vos antécédents médicaux, discuteront de vos symptômes et évalueront votre état général. Sur cette base, nous recommanderons les options de traitement les plus adaptées et créerons un plan personnalisé pour vous aider à obtenir les meilleurs résultats possibles pour votre santé et votre bien-être."
+    }
+  },
+  "therapies": {
+    "id": "therapies",
+    "questions": {
+      "EN": [
+        "Which therapies are offered?",
+        "What therapies do you offer?",
+        "What therapies are available?",
+        "What treatments are offered?",
+        "What therapy options do you have?",
+        "Tell me about your therapies",
+        "What types of therapy are available?",
+        "What therapies can I get?"
+      ],
+      "DE": [
+        "Welche Therapien werden angeboten?",
+        "Welche Therapien bieten Sie an?",
+        "Welche Therapien sind verfügbar?",
+        "Welche Behandlungen werden angeboten?",
+        "Welche Therapieoptionen haben Sie?",
+        "Erzählen Sie mir von Ihren Therapien",
+        "Welche Arten von Therapie sind verfügbar?",
+        "Welche Therapien kann ich erhalten?",
+        "Was für Therapien gibt es?"
+      ],
+      "FR": [
+        "Quelles thérapies sont proposées ?",
+        "Quelles thérapies offrez-vous ?",
+        "Quelles thérapies sont disponibles ?",
+        "Quels traitements sont proposés ?",
+        "Quelles options de thérapie avez-vous ?",
+        "Parlez-moi de vos thérapies",
+        "Quels types de thérapie sont disponibles ?",
+        "Quelles thérapies puis-je obtenir ?"
+      ]
+    },
+    "answer": {
+      "EN": "Within our integrative medicine program, we offer a wide range of therapies designed to complement conventional medical treatments. These include **acupuncture, homeopathy, infusion therapies, colon hydrotherapy, ozone therapy, orthomolecular medicine, nutritional counseling**, and **mental coaching**. Each therapy is carefully selected to support your overall health, promote healing, and enhance your quality of life, with treatment plans tailored to your individual needs.",
+      "DE": "Im Rahmen unseres Programms für integrative Medizin bieten wir eine Vielzahl von Therapien an, die die konventionelle medizinische Behandlung ergänzen. Dazu gehören **Akupunktur, Homöopathie, Infusionstherapien, Colon-Hydro-Therapie, Ozontherapie, Orthomolekularmedizin, Ernährungsberatung** und **Mental Coaching**. Jede Therapie wird sorgfältig ausgewählt, um Ihre allgemeine Gesundheit zu unterstützen, die Heilung zu fördern und Ihre Lebensqualität zu verbessern, wobei die Behandlungspläne auf Ihre individuellen Bedürfnisse zugeschnitten sind.",
+      "FR": "Dans le cadre de notre programme de médecine intégrative, nous proposons une large gamme de thérapies conçues pour compléter les traitements médicaux conventionnels. Celles-ci incluent **l'acupuncture, l'homéopathie, les thérapies par perfusion, l'hydrothérapie du côlon, la thérapie par ozone, la médecine orthomoléculaire, le conseil nutritionnel** et **le coaching mental**. Chaque thérapie est soigneusement sélectionnée pour soutenir votre santé globale, favoriser la guérison et améliorer votre qualité de vie, avec des plans de traitement adaptés à vos besoins individuels."
+    }
+  },
+  "acupuncture": {
+    "id": "acupuncture",
+    "questions": {
+      "EN": [
+        "How does an acupuncture session work?",
+        "What happens during acupuncture?",
+        "How is acupuncture performed?",
+        "What does an acupuncture session involve?",
+        "Tell me about acupuncture sessions",
+        "How does acupuncture treatment work?",
+        "What to expect during acupuncture?",
+        "What is an acupuncture session like?"
+      ],
+      "DE": [
+        "Wie läuft eine Akupunktursitzung ab?",
+        "Was passiert während der Akupunktur?",
+        "Wie wird Akupunktur durchgeführt?",
+        "Was beinhaltet eine Akupunktursitzung?",
+        "Erzählen Sie mir von Akupunktursitzungen",
+        "Wie funktioniert die Akupunkturbehandlung?",
+        "Was kann ich während der Akupunktur erwarten?",
+        "Wie ist eine Akupunktursitzung?",
+        "Was erwartet mich bei einer Akupunktursitzung?"
+      ],
+      "FR": [
+        "Comment se déroule une séance d'acupuncture ?",
+        "Que se passe-t-il pendant l'acupuncture ?",
+        "Comment l'acupuncture est-elle pratiquée ?",
+        "En quoi consiste une séance d'acupuncture ?",
+        "Parlez-moi des séances d'acupuncture",
+        "Comment fonctionne le traitement d'acupuncture ?",
+        "À quoi s'attendre pendant l'acupuncture ?",
+        "À quoi ressemble une séance d'acupuncture ?"
+      ]
+    },
+    "answer": {
+      "EN": "During an acupuncture session, **very fine needles** are carefully placed at **specific points** on the body to help balance energy flow and support the body's natural healing processes.\nFor children or anyone who is uncomfortable with needles but still wants to benefit from Far Eastern healing methods, we offer Tuina. **Tuina** is a traditional Chinese massage technique that uses gentle manual movements to **improve energy flow, release blockages**, and promote harmony between body and mind. Each session is tailored to the individual's needs to ensure a safe and effective treatment.",
+      "DE": "Während einer Akupunktursitzung werden **sehr feine Nadeln** sorgfältig an **spezifischen Punkten** des Körpers gesetzt, um den Energiefluss zu harmonisieren und die natürlichen Heilungsprozesse des Körpers zu unterstützen.\nFür Kinder oder alle, die sich mit Nadeln unwohl fühlen, aber dennoch von fernöstlichen Heilmethoden profitieren möchten, bieten wir Tuina an. **Tuina** ist eine traditionelle chinesische Massagetechnik, bei der sanfte manuelle Bewegungen den **Energiefluss verbessern, Blockaden lösen** und Harmonie zwischen Körper und Geist fördern. Jede Sitzung wird individuell angepasst, um eine sichere und effektive Behandlung zu gewährleisten.",
+      "FR": "Lors d'une séance d'acupuncture, des **aiguilles très fines** sont placées avec soin à des **points spécifiques** du corps pour aider à équilibrer le flux d'énergie et soutenir les processus naturels de guérison.\nPour les enfants ou toute personne mal à l'aise avec les aiguilles mais souhaitant bénéficier des méthodes de guérison de l'Extrême-Orient, nous proposons le Tuina. **Tuina** est une technique de massage chinoise traditionnelle utilisant des mouvements manuels doux pour **améliorer le flux d'énergie, libérer les blocages** et promouvoir l'harmonie entre le corps et l'esprit. Chaque séance est adaptée aux besoins individuels pour garantir un traitement sûr et efficace."
+    }
+  },
+  "homeopathy": {
+    "id": "homeopathy",
+    "questions": {
+      "EN": [
+        "Is homeopathy suitable for children?",
+        "Can children use homeopathy?",
+        "Is homeopathy safe for children?",
+        "Can kids get homeopathic treatment?",
+        "Is homeopathy appropriate for children?",
+        "Do you offer homeopathy for children?",
+        "Is homeopathy good for kids?",
+        "Can my child have homeopathy?"
+      ],
+      "DE": [
+        "Ist Homöopathie für Kinder geeignet?",
+        "Können Kinder Homöopathie verwenden?",
+        "Ist Homöopathie für Kinder sicher?",
+        "Können Kinder homöopathische Behandlung erhalten?",
+        "Ist Homöopathie für Kinder angemessen?",
+        "Bieten Sie Homöopathie für Kinder an?",
+        "Ist Homöopathie gut für Kinder?",
+        "Kann mein Kind Homöopathie erhalten?",
+        "Ist Homöopathie kindgerecht?"
+      ],
+      "FR": [
+        "L'homéopathie est-elle adaptée aux enfants ?",
+        "Les enfants peuvent-ils utiliser l'homéopathie ?",
+        "L'homéopathie est-elle sûre pour les enfants ?",
+        "Les enfants peuvent-ils recevoir un traitement homéopathique ?",
+        "L'homéopathie est-elle appropriée pour les enfants ?",
+        "Offrez-vous l'homéopathie pour les enfants ?",
+        "L'homéopathie est-elle bonne pour les enfants ?",
+        "Mon enfant peut-il avoir de l'homéopathie ?"
+      ]
+    },
+    "answer": {
+      "EN": "**Yes**, homeopathy is **safe and suitable** for children of all ages. Treatments are completely needle-free and gentle, making them well-tolerated by young patients. Homeopathy can help support a child's natural healing processes, address common ailments, and improve overall well-being, all while being adapted to the individual needs of each child.",
+      "DE": "**Ja**, Homöopathie ist **sicher und für Kinder jeden Alters geeignet**. Die Behandlungen sind vollständig nadelfrei und sanft, sodass sie von jungen Patienten gut vertragen werden. Homöopathie kann die natürlichen Heilungsprozesse eines Kindes unterstützen, häufige Beschwerden lindern und das allgemeine Wohlbefinden verbessern, wobei sie stets an die individuellen Bedürfnisse des Kindes angepasst wird.",
+      "FR": "**Oui**, l'homéopathie est **sans danger et adaptée** aux enfants de tout âge. Les traitements sont totalement sans aiguilles et doux, ce qui les rend bien tolérés par les jeunes patients. L'homéopathie peut soutenir les processus naturels de guérison de l'enfant, traiter les affections courantes et améliorer le bien-être général, tout en étant adaptée aux besoins individuels de chaque enfant."
+    }
+  },
+  "massage": {
+    "id": "massage",
+    "questions": {
+      "EN": [
+        "Which massage techniques are offered?",
+        "What massage types do you offer?",
+        "What massage services are available?",
+        "What kinds of massage do you have?",
+        "Tell me about your massage services",
+        "What massage techniques are available?",
+        "What types of massage can I get?",
+        "Do you offer massages?"
+      ],
+      "DE": [
+        "Welche Massagetechniken werden angeboten?",
+        "Welche Massagearten bieten Sie an?",
+        "Welche Massagedienstleistungen sind verfügbar?",
+        "Welche Arten von Massage haben Sie?",
+        "Erzählen Sie mir von Ihren Massagedienstleistungen",
+        "Welche Massagetechniken sind verfügbar?",
+        "Welche Arten von Massage kann ich erhalten?",
+        "Bieten Sie Massagen an?",
+        "Was für Massagen gibt es?"
+      ],
+      "FR": [
+        "Quelles techniques de massage sont proposées ?",
+        "Quels types de massage offrez-vous ?",
+        "Quels services de massage sont disponibles ?",
+        "Quels types de massage avez-vous ?",
+        "Parlez-moi de vos services de massage",
+        "Quelles techniques de massage sont disponibles ?",
+        "Quels types de massage puis-je obtenir ?",
+        "Offrez-vous des massages ?"
+      ]
+    },
+    "answer": {
+      "EN": "We offer **classic** massages, **reflexology**, **hot stone** massages, **Japanese facial** massage, **Lomi Lomi**, **pregnancy** massage, **anti-cellulite** massage, **manual lymphatic drainage**, **Shiatsu**, and **sports** massages.",
+      "DE": "Wir bieten **klassische** Massagen, **Fußreflexzonenmassagen**, **Hot-Stone-Massagen**, **Japanische Gesichtsmassage**, **Lomi Lomi**, **Schwangerschaftsmassage**, **Anti Cellulite Massage**, **Manuelle Lymphdrainage**, **Shiatsu** und **Sportmassagen** an.",
+      "FR": "Nous proposons des **massages classiques**, des **massages réflexes**, des **massages aux pierres chaudes**, le **massage facial japonais**, le **Lomi Lomi**, les **massages prénataux**, le **massage anti-cellulite**, le **drainage lymphatique manuel**, le **Shiatsu** et les **massages sportifs**."
+    }
+  },
+  "hours_practice": {
+    "id": "hours_practice",
+    "questions": {
+      "EN": [
+        "What are the practice opening hours?",
+        "What are your practice hours?",
+        "What are the clinic hours?",
+        "When is the practice open?",
+        "What are your office hours?",
+        "When can I visit the practice?",
+        "What time does the practice open?",
+        "What are your business hours?"
+      ],
+      "DE": [
+        "Wie sind die Öffnungszeiten der Praxis?",
+        "Was sind Ihre Praxiszeiten?",
+        "Was sind die Klinikzeiten?",
+        "Wann ist die Praxis geöffnet?",
+        "Was sind Ihre Bürozeiten?",
+        "Wann kann ich die Praxis besuchen?",
+        "Um wie viel Uhr öffnet die Praxis?",
+        "Was sind Ihre Geschäftszeiten?",
+        "Zu welchen Zeiten haben Sie geöffnet?"
+      ],
+      "FR": [
+        "Quels sont les horaires d'ouverture de la pratique ?",
+        "Quels sont vos horaires de pratique ?",
+        "Quels sont les horaires de la clinique ?",
+        "Quand la pratique est-elle ouverte ?",
+        "Quels sont vos horaires de bureau ?",
+        "Quand puis-je visiter la pratique ?",
+        "À quelle heure la pratique ouvre-t-elle ?",
+        "Quels sont vos horaires d'ouverture ?"
+      ]
+    },
+    "answer": {
+      "EN": "**Opening Hours:**<br><br>**SECRETARIAT and telephone availability:**<br>Monday – Thursday 08:30 – 12:00 / 13:30 – 16:30<br>Friday 08:30 – 12:00 / 13:30 – 16:00<br>Saturday 09:00 – 11:00<br><br>**FUNCTIOTRAINING:**<br>Mon – Thu 07:00 – 19:30<br>Friday 07:00 – 17:30<br>Saturday 08:00 – 15:30",
+      "DE": "**Öffnungszeiten:**<br><br>**SEKRETARIAT:**<br>Montag – Donnerstag: 08:30 – 12:00 / 13:30 – 16:30<br>Freitag: 08:30 – 12:00 / 13:30 – 16:00<br>Samstag: 09:00 – 11:00<br><br>**FUNCTIOTRAINING:**<br>Mo – Do: 07:00 – 19:30<br>Freitag: 07:00 – 17:30<br>Samstag: 08:00 – 15:30",
+      "FR": "**Horaires d'ouverture :**<br><br>**SECRÉTARIAT :**<br>Lundi – Jeudi : 08h30 – 12h00 / 13h30 – 16h30<br>Vendredi : 08h30 – 12h00 / 13h30 – 16h00<br>Samedi : 09h00 – 11h00<br><br>**FUNCTIOTRAINING :**<br>Lun – Jeu : 07h00 – 19h30<br>Vendredi : 07h00 – 17h30<br>Samedi : 08h00 – 15h30"
+    }
+  },
+  "appointment_booking": {
+    "id": "appointment_booking",
+    "questions": {
+      "EN": [
+        "How can I make an appointment?",
+        "How do I book an appointment?",
+        "How to schedule an appointment?",
+        "How can I schedule a visit?",
+        "How do I make a booking?",
+        "I want to make an appointment",
+        "Can I book an appointment?",
+        "How to get an appointment?"
+      ],
+      "DE": [
+        "Wie kann ich einen Termin vereinbaren?",
+        "Wie buche ich einen Termin?",
+        "Wie kann ich einen Termin planen?",
+        "Wie kann ich einen Besuch planen?",
+        "Wie mache ich eine Buchung?",
+        "Ich möchte einen Termin vereinbaren",
+        "Kann ich einen Termin buchen?",
+        "Wie bekomme ich einen Termin?",
+        "Wie kann ich einen Termin bekommen?"
+      ],
+      "FR": [
+        "Comment puis-je prendre rendez-vous ?",
+        "Comment réserver un rendez-vous ?",
+        "Comment planifier un rendez-vous ?",
+        "Comment puis-je planifier une visite ?",
+        "Comment faire une réservation ?",
+        "Je veux prendre rendez-vous",
+        "Puis-je prendre rendez-vous ?",
+        "Comment obtenir un rendez-vous ?"
+      ]
+    },
+    "answer": {
+      "EN": "Appointments can be booked online on our website at any time or by phone through our secretariat. Phone: +41 (0) 44 401 15 15.",
+      "DE": "Termine können jederzeit über unsere Webseite online gebucht werden oder telefonisch über unser Sekretariat. Telefon: +41 (0) 44 401 15 15.",
+      "FR": "Les rendez-vous peuvent être réservés en ligne sur notre site web à tout moment ou par téléphone auprès de notre secrétariat. Téléphone : +41 (0) 44 401 15 15."
+    }
+  }
+}

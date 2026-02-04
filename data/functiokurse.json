@@ -1,0 +1,57 @@
+{
+  "source": "https://www.functiomed.ch/angebot/functiokurse",
+  "title": "FunctioKurse Zürich",
+  "intro": {
+    "headline": "FUNCTIOKURSE",
+    "description": "Die Kurse bieten Ihnen vielfältige, abwechslungsreiche und dynamische Gruppenlektionen mit viel Spass und hoher Qualität. Ziel ist es präventiv und gezielt Ihre Gesundheit zu fördern.",
+    "details": [
+      "Die Kurse finden in Kleingruppen statt, sodass auf jede einzelne Teilnehmerin und jeden einzelnen Teilnehmer individuell eingegangen werden kann.",
+      "Bitte erkundigen Sie sich bei Ihrer Krankenkasse, ob in Ihrem Versicherungsprofil eine Kostenübernahme enthalten ist.",
+      "Die Kursleiter sind qualitop anerkannt.",
+      "Auf dem Youtube Kanal finden Sie Online Kurse für zu Hause."
+    ]
+  },
+  "courses": [
+    {
+      "id": "functiowalk",
+      "name": "functioWALK",
+      "tagline": "In unserer Gruppe steht die Gemeinschaft im Mittelpunkt.",
+      "description": "Wir motivieren uns gegenseitig, teilen Tipps zur Verbesserung der Gehtechnik und sorgen dafür, dass jeder Teilnehmer sich wohlfühlt. functioWALK ist der perfekte Einstieg für alle, die ihre Fitness verbessern, neue Leute kennenlernen und Spass an der Bewegung haben möchten.",
+      "healthBenefits": [
+        "Verbesserung der Herz-Kreislauf-Gesundheit",
+        "Förderung der Gelenkgesundheit",
+        "Stärkung der Muskulatur",
+        "Verbesserung der Flexibilität und Mobilität",
+        "Förderung der Entspannung durch Atemübungen"
+      ],
+      "schedule": "Immer dienstags, 9.45–10.45 Uhr",
+      "meetingPoint": "Haupteingang Langgrütstrasse 112, 8047 Zürich",
+      "schnupperlektion": "kostenlos",
+      "pricing": {
+        "5er": "125 Franken",
+        "10er": "220 Franken"
+      },
+      "highlights": [
+        "Flexibilität: Keine Anmeldung nötig",
+        "Ausrüstung: Bitte bringen Sie, falls vorhanden, Nordic Walking Stöcke mit",
+        "Voraussetzungen: 30 Minuten spazieren ohne Pause",
+        "Leitung: Dipl. Physiotherapeutinnen Sarah Gumann, Marina Schürmann, Anna Brandner, Lea Wiler",
+        "Wetter: Die Gruppe findet bei jeder Witterung im Freien statt",
+        "Versicherung: Ist Sache der Teilnehmenden"
+      ],
+      "registration": "Bei Interesse melden Sie sich bitte am Empfang."
+    },
+    {
+      "id": "yoga",
+      "name": "Yoga mit Sandra Biondo",
+      "schedule": "Mittwoch 18:00–19:00",
+      "contact": "biondoangel@yahoo.de",
+      "description": "Die Verbindung zwischen körperlicher und geistiger Ebene macht Yoga so einzigartig. Wir widmen uns jedem Körperbereich und allen damit verbundenen Einflüssen. Durch Atmungs-, Dehnungs- und Stabilisationsübungen kreieren wir nachhaltige Beschwerdefreiheit in der Bewegung."
+    }
+  ],
+  "contact": {
+    "reception": "Bei Interesse an Kursen melden Sie sich am Empfang.",
+    "phone": "+41 (0) 44 401 15 15",
+    "email": "functiomed@hin.ch"
+  }
+}

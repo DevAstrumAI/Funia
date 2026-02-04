@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>functiomed – Zentrum für funktionelle Medizin</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>functiomed</h1>
+    <p id="headerSubtitle">Zentrum für funktionelle Medizin</p>
+  </header>
+
+  <section class="welcome-section">
+    <h2 id="welcomeTitle">Willkommen</h2>
+    <p id="welcomeText">Frag uns alles zu unseren Leistungen oder buche direkt einen Termin.</p>
+  </section>
+
+  <button type="button" class="chat-button" id="chatToggle" aria-label="Chat öffnen">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+  </button>
+
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-header">
+      <div class="chat-header-content">
+        <h3>FUNIA</h3>
+        <span class="status-indicator">● Online</span>
+      </div>
+      <div class="chat-header-actions">
+        <div class="language-selector">
+          <button type="button" class="language-btn active" data-lang="de">DE</button>
+          <button type="button" class="language-btn" data-lang="en">EN</button>
+          <button type="button" class="language-btn" data-lang="fr">FR</button>
+        </div>
+        <button type="button" class="close-button" id="chatClose" aria-label="Schließen">×</button>
+      </div>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div id="typingIndicator" class="typing-indicator">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <div id="errorBanner" class="error-banner" style="display: none;"></div>
+
+    <div class="chat-input-container">
+      <div class="chat-input-wrapper">
+        <input type="text" class="chat-input" id="chatInput" placeholder="schreibe hier deine Frage....." autocomplete="off">
+        <button type="button" class="send-button" id="sendBtn" aria-label="Senden">
+          <svg viewBox="0 0 24 24" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="faq-section" id="faqSection">
+      <div class="faq-container" id="faqContainer"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

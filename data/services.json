@@ -1,0 +1,165 @@
+{
+  "practice": {
+    "name": "functiomed AG",
+    "tagline": "Zentrum für funktionelle Medizin",
+    "address": "Langgrütstrasse 112, CH-8047 Zürich",
+    "phone": "+41 44 401 15 15",
+    "email": "functiomed@hin.ch",
+    "website": "https://www.functiomed.ch",
+    "openingHours": {
+      "secretariat": "Montag–Donnerstag 08:30–12:00 / 13:30–16:30 Uhr, Freitag 08:30–12:00 / 13:30–16:00 Uhr, Samstag 09:00–11:00 Uhr",
+      "functioTraining": "Mo–Do 07:00–19:30 Uhr, Freitag 07:00–17:30 Uhr, Samstag 08:00–15:30 Uhr"
+    }
+  },
+  "categories": {
+    "Komplementärmedizin": [
+      "Osteopathie │ Etiopathie",
+      "Integrative Medizin",
+      "Colon Hydro-Therapie",
+      "Med. Massagen",
+      "Mental Coaching"
+    ],
+    "Medizin": [
+      "Orthopädie │ Traumatologie",
+      "Rheumatologie │ Innere Medizin",
+      "Physiotherapie │ Kinderphysiotherapie",
+      "Ergotherapie",
+      "Infusionstherapie",
+      "Stammzellen"
+    ],
+    "Kooperationen": [
+      "NUMO Orthopedic Systems",
+      "Homöopathie – PraxisGlobuli │ Walti Linke",
+      "Akupunktur – 5 Elemente │ Marian Leuthold",
+      "Ernährungsdiagnostik – erpse Institut AG",
+      "Ernährung und Gesundheit – fitamara GmbH │ Tamara Meier"
+    ],
+    "Functiosport": [
+      "functioKurse",
+      "FunctioTraining",
+      "Unser Engagement – functiosport"
+    ]
+  },
+  "services": [
+    {
+      "name": "Ergotherapie",
+      "category": "Medizin",
+      "description": "Ergotherapie bei functiomed."
+    },
+    {
+      "name": "Physiotherapie / Kinderphysiotherapie",
+      "category": "Medizin",
+      "description": "Physiotherapie und Kinderphysiotherapie in Zürich."
+    },
+    {
+      "name": "Stammzellen │ swiss stem cells",
+      "category": "Medizin",
+      "description": "Die Stammzellenbehandlung in der Orthopädie nutzt körpereigene regenerative Zellen zur Förderung der Heilung bei Gelenk- und Gewebeschäden. Besonders bei Arthrose, Sehnenverletzungen oder postoperativen Beschwerden kann sie Schmerzen lindern und die Regeneration unterstützen. Das Verfahren ist minimalinvasiv und eröffnet neue Möglichkeiten in der nicht-operativen Therapie."
+    },
+    {
+      "name": "Infusionstherapie",
+      "category": "Medizin",
+      "description": "functiomed ist Ihr Zentrum für Infusionstherapien in Zürich. Zusammen erarbeiten wir Ihren persönlichen Behandlungsplan, zugeschnitten auf Ihre Bedürfnisse und Ziele."
+    },
+    {
+      "name": "Rheumatologie │ Innere Medizin",
+      "category": "Medizin",
+      "description": "In der Rheumatologie bei functiomed AG stehen Sie im Mittelpunkt. Unsere erfahrenen Spezialisten diagnostizieren und behandeln ein breites Spektrum an rheumatischen Erkrankungen – von entzündlichen Gelenkerkrankungen bis hin zu Weichteilrheuma. Mit modernsten medizinischen Ansätzen entwickeln wir individuell angepasste Therapien, um Schmerzen zu lindern, Entzündungen zu reduzieren und Ihre Beweglichkeit zu fördern."
+    },
+    {
+      "name": "Ernährung und Gesundheit – fitamara GmbH │ Tamara Meier",
+      "category": "Kooperationen",
+      "description": "fitamara GmbH – Praxis für Ernährung und Gesundheit in Zürich. Wir nutzen die neusten Erkenntnisse der Wissenschaft und berücksichtigen alle Faktoren, die dein Wohlbefinden und deine Gesundheit beeinflussen."
+    },
+    {
+      "name": "Colon Hydro-Therapie",
+      "category": "Komplementärmedizin",
+      "description": "functiomed AG ist Ihr Zentrum für Colon Hydro-Therapie. Der Darm ist das grösste Immunsystem unseres Körpers."
+    },
+    {
+      "name": "NUMO Orthopedic Systems",
+      "category": "Kooperationen",
+      "description": "NUMO Orthopedic Systems AG zählt zu den Pionieren der Lauf- und Ganganalyse. Seit über 20 Jahren für präzise und wirksame Lösungen."
+    },
+    {
+      "name": "Kiefertherapie",
+      "category": "Komplementärmedizin",
+      "description": "Nach einer genauen Untersuchung des Kiefergelenks, des Schädels und des Nervensystems nutzen wir manuelle intra- und extraorale Techniken, Muskelentspannungstechniken, Dehnungen und ein Eigenübungsprogramm."
+    },
+    {
+      "name": "Osteopathie │ Etiopathie",
+      "category": "Komplementärmedizin",
+      "description": "Die Osteopathie bei functiomed AG bietet eine ganzheitliche Herangehensweise. Mit gezielten, sanften, manuellen Techniken lösen unsere Therapeuten Spannungen, fördern die Selbstheilungskräfte und stellen das Gleichgewicht Ihres Körpers wieder her. Bei Beschwerden im Bewegungsapparat, Stress oder funktionellen Störungen."
+    },
+    {
+      "name": "functioKurse",
+      "category": "Functiosport",
+      "description": "functiomed bietet functiokurse in Zürich an: vielfältige, abwechslungsreiche und dynamische Gruppenlektionen mit hoher Qualität."
+    },
+    {
+      "name": "Sportosteopathie",
+      "category": "Komplementärmedizin",
+      "description": "functiomed ist Ihr Zentrum für Sportosteopathie in Zürich. Prävention, Diagnostik und Behandlung sporttypischer Verletzungen."
+    },
+    {
+      "name": "Kinderosteopathie",
+      "category": "Komplementärmedizin",
+      "description": "Osteopathie kann auch bei Säuglingen eingesetzt werden – Anzeichen können u.a. Schreien und/oder stärkeres Saugen sein."
+    },
+    {
+      "name": "Mental Coaching",
+      "category": "Komplementärmedizin",
+      "description": "Mental Coaching kann Ihnen z.B. dabei helfen, eine schwierige Situation zu bewältigen."
+    },
+    {
+      "name": "Akupunktur – 5 Elemente │ Marian Leuthold",
+      "category": "Kooperationen",
+      "description": "Akupunktur in Zürich. Eignet sich für alle, die gesund bleiben oder gesund werden möchten."
+    },
+    {
+      "name": "Homöopathie – PraxisGlobuli │ Walti Linke",
+      "category": "Kooperationen",
+      "description": "functiomed ist Ihre Praxis für Homöopathie in Zürich. Ähnliches mit Ähnlichem heilen – Grundsatz dieser über 200 Jahre alten Behandlungsmethode."
+    },
+    {
+      "name": "Integrative Medizin",
+      "category": "Komplementärmedizin",
+      "description": "Allgemeinmedizin in Zürich. Individuelles diagnostisches und therapeutisches Behandlungskonzept für jeden Patienten."
+    },
+    {
+      "name": "Ernährungsdiagnostik – erpse Institut",
+      "category": "Kooperationen",
+      "description": "Ernährungsdiagnostik verbindet Bewegung, Sport und psychologische Elemente, um Stoffwechselengpässe zu erkennen. Optimaler Mix aus Bewegung, Ernährung und Regeneration."
+    },
+    {
+      "name": "Med. Massage",
+      "category": "Komplementärmedizin",
+      "description": "Medizinische Massage in Zürich: klassische Massage, Fussreflexzonen-Massage, Hot Stone-Massage, Sportmassage."
+    },
+    {
+      "name": "FunctioTraining",
+      "category": "Functiosport",
+      "description": "FunctioTraining in Zürich: gezielte Übungen an unseren Geräten für Ausdauer, Koordination, Kraft und Flexibilität."
+    },
+    {
+      "name": "Osteopathie in Schwangerschaft",
+      "category": "Komplementärmedizin",
+      "description": "Osteopathie während der Schwangerschaft und Rückbildungszeit. Kann Symptome wie Kopfschmerzen, Atmungsprobleme, Verdauungsprobleme lindern."
+    },
+    {
+      "name": "Orthopädie & Traumatologie │ Sportmedizin",
+      "category": "Medizin",
+      "description": "Zentrum für Orthopädie, Traumatologie, Rheumatologie, Innere Medizin und Sportmedizin in Zürich mit moderner Medizintechnik."
+    },
+    {
+      "name": "Unser Engagement – functiosport",
+      "category": "Functiosport",
+      "description": "functiosport unterstützt medizinisch und beratend Spitzen- und Leistungssportler."
+    },
+    {
+      "name": "Manipulationen des Beckenbodens",
+      "category": "Komplementärmedizin",
+      "description": "Beckenmanipulationen bei Frauen und Männern zur Behandlung von Funktionsstörungen der Harnorgane, des Geschlechtsapparats, des Afters und des Rektums."
+    }
+  ]
+}

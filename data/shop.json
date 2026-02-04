@@ -1,0 +1,52 @@
+{
+  "source": "https://www.functiomed.ch/shop",
+  "title": "Shop | Functiomed",
+  "products": [
+    {
+      "id": "buch-ursache-folge-ketten",
+      "title": "die Entstehung von Krankheiten – Ursache-Folge-Ketten",
+      "author": "Martin Spring",
+      "authorRole": "Inhaber und CEO von functiomed, Osteopath, assoziierter Professor Masterstudiengang Osteopathie",
+      "description": "Warum braucht es ein Buch über Ursache-Folge-Ketten (UFK) im Körper? Vernetztes Denken ist in der Medizin besonders wichtig. Mit der Beschreibung von Ursache-Folge-Ketten versucht Martin Spring, bewusst gegenzusteuern. Medizinische Fachleute sowie Patientinnen und Patienten sollten sich wieder mehr fragen, woher ein Problem kommt. Das Buch bietet eine Hilfe, diesen Fragen auf den Grund zu gehen. Martin Spring hat als Osteopath über viele Jahre Tausende von Menschen behandelt, darunter Topkräfte aus Wirtschaft und Politik sowie namhafte nationale und internationale Spitzensportler.",
+      "priceCHF": 28,
+      "priceNote": "Fr. 28.–",
+      "availableInPractice": true,
+      "orderOnline": true
+    },
+    {
+      "id": "buch-kraft-wandlungsphasen",
+      "title": "Die Kraft der Wandlungsphasen – Einführung in die Fünf-Elemente-Lehre",
+      "author": "Marian Leuthold",
+      "authorRole": "Naturheilpraktikerin mit eidgenössischem Diplom in TCM. Spezialgebiete: Fünf-Wandlungsphasen-Akupunktur nach Dr. J. R. Worsley, Shonishin (japanische Kinderheilkunde). Behandelt und coacht seit über zwanzig Jahren Erwachsene und Kinder.",
+      "description": "Verständlich und in vielen Beispielen beschreibt Marian Leuthold die Gesetzmäßigkeiten der fünf Elemente – Holz, Feuer, Erde, Metall, Wasser – mit deren Entsprechungen und zeigt, wie wir die Natur als Lehrmeisterin neu entdecken können.",
+      "priceCHF": 22,
+      "priceNote": "Fr. 22.–",
+      "availableInPractice": true,
+      "orderOnline": true
+    },
+    {
+      "id": "buch-kaiserin-tiere",
+      "title": "Die Kaiserin und Ihre Tiere – Eine etwas andere Reise durch meinen Körper",
+      "author": "Marian Leuthold",
+      "authorRole": "Naturheilpraktikerin mit eidgenössischem Diplom in TCM. Spezialgebiete: Fünf-Wandlungsphasen-Akupunktur, Shonishin.",
+      "description": "Marian Leuthold stellt die menschlichen Organe aus einem neuen Blickwinkel vor: als Persönlichkeiten mit spezifischen Aufgaben. Das Herz wird zur Kaiserin, der Dünndarm zum Privatsekretär, die Milz zur Transportministerin usw. Die Idee, die Personen eines Hofstaates zu differenzieren und ihnen das entsprechende Tier aus dem chinesischen Kalender zuzuordnen, macht das Buch inspirierend und neu.",
+      "priceCHF": 35,
+      "priceNote": "Fr. 35.–",
+      "availableInPractice": true,
+      "orderOnline": true
+    },
+    {
+      "id": "buch-isg",
+      "title": "Das schmerzhafte Iliosakralgelenk (ISG)",
+      "author": "Prof. Dr. med. Clément M.L. Werner",
+      "authorRole": "Prof. Dr. med.",
+      "description": "Rückenschmerzen betreffen im Laufe des Lebens 75% aller Menschen. In bis zu 30% der Fälle ist das Iliosakralgelenk Ursache oder ursächlich beteiligt. Das Buch bringt betroffenen Patienten die anatomischen und physiologischen Besonderheiten des Gelenkes näher, erläutert Wege und Fallstricke in der Diagnostik und mögliche Behandlungsoptionen.",
+      "priceCHF": null,
+      "priceNote": null,
+      "availableInPractice": false,
+      "orderOnline": true,
+      "orderNote": "Online bestellen (Deutsch) / order online (English)"
+    }
+  ],
+  "note": "Bücher können auch direkt in der Praxis bezogen werden (wo angegeben). Shop-URL: https://www.functiomed.ch/shop"
+}
