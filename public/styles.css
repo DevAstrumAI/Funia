@@ -182,6 +182,20 @@ body {
 .message.bot .message-content h2:first-child,
 .message.bot .message-content h3:first-child,
 .message.bot .message-content h4:first-child { margin-top: 0; }
+
+.typing-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-left: 1px;
+  background: var(--primary-color);
+  vertical-align: text-bottom;
+  animation: typing-cursor-blink 0.7s step-end infinite;
+}
+@keyframes typing-cursor-blink {
+  50% { opacity: 0; }
+}
+
 .message.user .message-content {
   background: var(--primary-color);
   color: white;

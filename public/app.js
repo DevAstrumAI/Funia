@@ -20,6 +20,8 @@
       ],
       greeting: 'Hallo! 👋 Ich bin FUNIA, deine freundliche Assistentin bei functiomed. Ich bin für dich da und beantworte Fragen zur functiomed AG. Hast du Fragen zu unseren Therapeuten, unseren Leistungen oder wie du einen Termin buchen kannst? Womit kann ich dir heute helfen?',
       errorGeneric: 'Verbindungsfehler. Bitte später erneut versuchen.',
+      errorTimeout: 'Die Anfrage hat zu lange gedauert. Bitte erneut versuchen.',
+      errorEmpty: 'Keine Antwort erhalten. Bitte erneut versuchen.',
     },
     en: {
       headerSubtitle: 'Center for Functional Medicine',
@@ -41,6 +43,8 @@
       ],
       greeting: 'Hello! 👋 I am FUNIA, your friendly assistant at functiomed. I am here to support you and answer your questions about functiomed AG. Do you have questions about our therapists, our services, or how you can book an appointment? How can I help you today?',
       errorGeneric: 'Connection error. Please try again later.',
+      errorTimeout: 'The request took too long. Please try again.',
+      errorEmpty: 'No response received. Please try again.',
     },
     fr: {
       headerSubtitle: 'Centre de médecine fonctionnelle',
@@ -62,8 +66,12 @@
       ],
       greeting: 'Bonjour ! 👋 Je suis FUNIA, votre assistante à functiomed. Je suis là pour vous aider et répondre à vos questions sur functiomed AG. Avez-vous des questions sur nos thérapeutes, nos prestations ou la réservation d\'un rendez-vous ? Comment puis-je vous aider aujourd\'hui ?',
       errorGeneric: 'Erreur de connexion. Veuillez réessayer plus tard.',
+      errorTimeout: 'La requête a pris trop de temps. Veuillez réessayer.',
+      errorEmpty: 'Aucune réponse reçue. Veuillez réessayer.',
     },
   };
+
+  const CHAT_REQUEST_TIMEOUT_MS = 90000;
 
   let currentLang = 'de';
   const messages = [];
@@ -158,6 +166,47 @@
     document.querySelectorAll('.speaker-button.speaking').forEach((b) => b.classList.remove('speaking'));
   }
 
+  function syncRenderMarkdown(text) {
+    if (!text || typeof text !== 'string') return '';
+    if (typeof marked === 'undefined') return escapeHtml(text);
+    try {
+      if (typeof marked.use === 'function') marked.use({ gfm: true, breaks: true });
+      var out = typeof marked.parse === 'function' ? marked.parse(text) : marked(text);
+      if (typeof out === 'string') return out;
+      return escapeHtml(text);
+    } catch (_) {
+      return escapeHtml(text);
+    }
+  }
+
+  function typeIntoElement(contentEl, text, delayMs) {
+    delayMs = delayMs || 10;
+    var chunk = text.length > 400 ? 2 : 1;
+    var cursor = document.createElement('span');
+    cursor.className = 'typing-cursor';
+    return new Promise(function (resolve) {
+      var i = 0;
+      function addNext() {
+        if (i >= text.length) {
+          resolve();
+          return;
+        }
+        i = Math.min(i + chunk, text.length);
+        var visible = text.slice(0, i);
+        contentEl.innerHTML = syncRenderMarkdown(visible);
+        contentEl.appendChild(cursor);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+        if (i >= text.length) {
+          cursor.remove();
+          resolve();
+          return;
+        }
+        setTimeout(addNext, delayMs);
+      }
+      addNext();
+    });
+  }
+
   function appendMessage(role, content, options) {
     const div = document.createElement('div');
     div.className = `message ${role === 'user' ? 'user' : 'bot'}`;
@@ -199,6 +248,54 @@
     } else {
       chatMessages.appendChild(div);
     }
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  function addBotMessageActions(div, raw) {
+    if (!raw) return;
+    div.dataset.ttsText = raw;
+    const actions = document.createElement('div');
+    actions.className = 'message-actions';
+    const listenBtn = document.createElement('button');
+    listenBtn.type = 'button';
+    listenBtn.className = 'action-button speaker-button';
+    listenBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg><span>' + t('listen') + '</span>';
+    listenBtn.addEventListener('click', function () {
+      if (this.classList.contains('speaking')) {
+        stopSpeaking();
+        return;
+      }
+      var msg = this.closest('.message');
+      var textToSpeak = (msg && msg.dataset.ttsText) || raw;
+      document.querySelectorAll('.speaker-button.speaking').forEach(function (b) { b.classList.remove('speaking'); });
+      this.classList.add('speaking');
+      speakText(textToSpeak, currentLang);
+      var onEnd = function () {
+        this.classList.remove('speaking');
+        if (window.speechSynthesis) window.speechSynthesis.onend = null;
+      }.bind(this);
+      if (window.speechSynthesis) window.speechSynthesis.onend = onEnd;
+    });
+    actions.appendChild(listenBtn);
+    div.appendChild(actions);
+  }
+
+  async function appendMessageWithTyping(role, rawContent, options) {
+    const div = document.createElement('div');
+    div.className = 'message bot';
+    const contentEl = document.createElement('div');
+    contentEl.className = 'message-content';
+    div.appendChild(contentEl);
+    const typing = document.getElementById('typingIndicator');
+    if (typing && typing.parentNode === chatMessages) {
+      chatMessages.insertBefore(div, typing);
+    } else {
+      chatMessages.appendChild(div);
+    }
+    typingIndicator.classList.remove('active');
+    await typeIntoElement(contentEl, rawContent, 8);
+    contentEl.innerHTML = options.html != null ? options.html : escapeHtml(rawContent);
+    addBotMessageActions(div, options.raw || rawContent);
     chatMessages.scrollTop = chatMessages.scrollHeight;
   }
 
@@ -255,20 +352,37 @@
         }
         return { role: m.role, content: m.content };
       });
+      const controller = new AbortController();
+      const timeoutId = setTimeout(function () { controller.abort(); }, CHAT_REQUEST_TIMEOUT_MS);
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ messages: payloadMessages, language: langToSend }),
+        signal: controller.signal,
       });
+      clearTimeout(timeoutId);
       const data = await res.json().catch(() => ({}));
-      var reply = data.message?.content ?? '';
+      var reply = (data.message?.content ?? '').trim();
+      // Convert any literal "\n" sequences from backend into real newlines
+      if (reply && reply.indexOf('\\n') !== -1) {
+        reply = reply.replace(/\\n/g, '\n');
+      }
+      if (!res.ok && data.error) {
+        reply = data.error;
+      }
+      if (!reply) {
+        reply = t('errorEmpty');
+      }
       reply = normalizeMarkdown(reply);
       messages.push({ role: 'assistant', content: reply });
       const html = typeof marked !== 'undefined' ? await renderMarkdown(reply) : escapeHtml(reply);
-      appendMessage('assistant', reply, { html, raw: reply });
+      await appendMessageWithTyping('assistant', reply, { html, raw: reply });
     } catch (err) {
-      errorBanner.textContent = err.message || t('errorGeneric');
+      var errMsg = err.name === 'AbortError' ? t('errorTimeout') : (err.message || t('errorGeneric'));
+      errorBanner.textContent = errMsg;
       errorBanner.style.display = 'block';
+      messages.push({ role: 'assistant', content: errMsg });
+      appendMessage('assistant', errMsg, { html: escapeHtml(errMsg), raw: errMsg });
     } finally {
       typingIndicator.classList.remove('active');
       sendBtn.disabled = false;
